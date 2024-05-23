@@ -1,8 +1,8 @@
-package com.example.facialprototype.ProtoActivity
+package com.capstone.prettyU.ProtoActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.facialprototype.R
+import com.capstone.prettyU.R
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

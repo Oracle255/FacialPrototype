@@ -1,4 +1,4 @@
-package com.example.facialprototype
+package com.capstone.prettyU
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

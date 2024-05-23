@@ -1,4 +1,4 @@
-package com.example.facialprototype.CustomUI
+package com.capstone.prettyU.CustomUI
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import android.view.Gravity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
-import com.example.facialprototype.R
+import com.capstone.prettyU.R
 
 class BtnCustomGeneral : AppCompatButton {
 

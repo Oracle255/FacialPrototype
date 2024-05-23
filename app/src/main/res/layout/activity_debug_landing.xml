@@ -48,7 +48,7 @@
                 android:layout_marginEnd="75sp"
                 android:orientation="vertical">
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btn_debug_splash"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                     android:enabled="false"
                     android:text="Splash Screen" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btn_debug_login"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                     android:enabled="false"
                     android:text="LOGIN" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btn_debug_register"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                     android:enabled="false"
                     android:text="REGISTER" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                     android:enabled="false"
                     android:text="@string/placeholder_empty_button" />
 
-                <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                <com.capstone.prettyU.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

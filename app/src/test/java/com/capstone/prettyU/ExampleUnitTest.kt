@@ -1,4 +1,4 @@
-package com.example.facialprototype
+package com.capstone.prettyU
 
 import org.junit.Test
 

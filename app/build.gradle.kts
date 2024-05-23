@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.facialprototype"
+    namespace = "com.capstone.prettyU"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.facialprototype"
+        applicationId = "com.capstone.prettyU"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

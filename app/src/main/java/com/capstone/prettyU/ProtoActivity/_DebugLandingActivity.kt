@@ -1,10 +1,9 @@
-package com.example.facialprototype.ProtoActivity
+package com.capstone.prettyU.ProtoActivity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.facialprototype.R
-import com.example.facialprototype.databinding.ActivityDebugLandingBinding
+import com.capstone.prettyU.databinding.ActivityDebugLandingBinding
 
 class _DebugLandingActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDebugLandingBinding

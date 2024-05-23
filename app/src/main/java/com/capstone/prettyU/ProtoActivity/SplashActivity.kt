@@ -1,4 +1,4 @@
-package com.example.facialprototype.ProtoActivity
+package com.capstone.prettyU.ProtoActivity
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -7,8 +7,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.facialprototype.BackEnd.Utilities.DevTestConfig
-import com.example.facialprototype.databinding.ActivitySplashBinding
+import com.capstone.prettyU.BackEnd.Utilities.DevTestConfig
+import com.capstone.prettyU.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySplashBinding
