@@ -35,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/res_prettyu_text" />
+                    app:srcCompat="@drawable/Res_PrettyU_Text" />
 
             </FrameLayout>
 
@@ -48,7 +48,7 @@
                 android:text="Digital coach for better skin health"
                 android:textAlignment="center"
                 android:textColor="@color/primary"
-                android:textSize="16sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -76,7 +76,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15sp"
-                android:text="POWERED BY :" />
+                android:fontFamily="sans-serif-condensed"
+                android:text="POWERED BY :"
+                android:textColor="@color/primary" />
         </LinearLayout>
 
     </LinearLayout>
