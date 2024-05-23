@@ -1,7 +1,8 @@
-package com.example.facialprototype
+package com.example.facialprototype.ProtoActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.facialprototype.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

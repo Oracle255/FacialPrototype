@@ -16,17 +16,22 @@ class _DebugLandingActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.apply {
+
+            btnDebugSplash.isEnabled = true
             btnDebugSplash.setOnClickListener {
                 startActivity(Intent(currentActivity, SplashActivity::class.java))
             }
+
+            btnDebugLogin.isEnabled = true
             btnDebugLogin.setOnClickListener {
-                startActivity(Intent(currentActivity, SplashActivity::class.java))
+                startActivity(Intent(currentActivity, LoginActivity::class.java))
             }
+
+            btnDebugRegister.isEnabled = true
             btnDebugRegister.setOnClickListener {
-                startActivity(Intent(currentActivity, SplashActivity::class.java))
+                startActivity(Intent(currentActivity, RegisterActivity::class.java))
             }
+
         }
-
     }
-
 }

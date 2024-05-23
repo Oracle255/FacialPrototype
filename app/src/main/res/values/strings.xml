@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FacialPrototype</string>
+    <string name="placeholder_empty_button">NOT YET IMPLEMENTED</string>
 </resources>

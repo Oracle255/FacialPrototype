@@ -19,7 +19,7 @@
             android:name=".ProtoActivity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ProtoActivity.SplashActivity"
+            android:name=".ProtoActivity.MainActivity"
             android:exported="false" />
         <activity
             android:name=".ProtoActivity._DebugLandingActivity"
@@ -31,7 +31,7 @@
             android:name=".ProtoActivity.ProtoLanding"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ProtoActivity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
