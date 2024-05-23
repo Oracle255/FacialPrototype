@@ -9,7 +9,6 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 import com.example.facialprototype.R
 
-// Source Dari latihan dicoding
 class BtnCustomGeneral : AppCompatButton {
 
     constructor(context: Context) : super(context) // untuk di Activity/Fragment

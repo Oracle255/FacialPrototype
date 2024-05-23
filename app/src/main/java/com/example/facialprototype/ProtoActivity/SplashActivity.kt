@@ -3,16 +3,19 @@ package com.example.facialprototype.ProtoActivity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.facialprototype.R
-import com.example.facialprototype.databinding.ActivityProtoLandingBinding
+import com.example.facialprototype.databinding.ActivitySplashBinding
 
-class ProtoLanding : AppCompatActivity() {
-    private lateinit var binding: ActivityProtoLandingBinding
+class SplashActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySplashBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityProtoLandingBinding.inflate(layoutInflater)
+        binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.apply {
+
+        }
 
     }
 }

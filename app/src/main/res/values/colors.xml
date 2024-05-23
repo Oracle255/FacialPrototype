@@ -3,16 +3,19 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#5D1049</color>
-    <color name="secondary">#720D5D</color>
+    <color name="secondary">#9C4189</color>
     <color name="tertiary"></color>
     <color name="background">#F0CCE2</color>
     <color name="backgroundAccent">#EFCBE1</color>
     <color name="backgroundLighter">#F3EFF1</color>
+    <color name="backgroundGradientBuilder1">#AC7EA0</color>
+    <color name="backgroundGradientBuilder2">#C8BFC6</color>
+
     <color name="textPop">#E30425</color>
     <color name="textLight">#EFE9E9</color>
     <color name="textDark">#AE5353</color>
-    <color name="btnEnable">#442B2D</color>
-    <color name="btnDisable">#720D5D</color>
+    <color name="btnEnable">#7C4146</color>
+    <color name="btnDisable">#BD96B5</color>
     <color name="iconGeneral">#442B2D</color>
     <color name="iconPop">#B1676D</color>
 </resources>

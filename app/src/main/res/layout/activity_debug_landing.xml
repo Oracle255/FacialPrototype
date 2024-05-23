@@ -7,39 +7,71 @@
     tools:context=".ProtoActivity._DebugLandingActivity">
 
     <LinearLayout
+        android:id="@+id/ll_master"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <com.example.facialprototype.CustomUI.BtnCustomGeneral
-            android:id="@+id/button"
+        <LinearLayout
+            android:id="@+id/ll_text_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:orientation="vertical">
 
-        <com.example.facialprototype.CustomUI.BtnCustomGeneral
-            android:id="@+id/button2"
+            <TextView
+                android:id="@+id/label_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:gravity="center"
+                android:text="LAYOUT TEST"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_marginTop="15sp"
+            android:orientation="vertical">
 
-        <com.example.facialprototype.CustomUI.BtnCustomGeneral
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                android:id="@+id/btn_debug_splash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Splash Screen" />
 
-        <com.example.facialprototype.CustomUI.BtnCustomGeneral
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                android:id="@+id/btn_debug_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN" />
 
-        <com.example.facialprototype.CustomUI.BtnCustomGeneral
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                android:id="@+id/btn_debug_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER" />
+
+            <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <com.example.facialprototype.CustomUI.BtnCustomGeneral
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
