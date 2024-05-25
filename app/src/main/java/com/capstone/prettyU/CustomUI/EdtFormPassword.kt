@@ -16,7 +16,7 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
-import com.example.facialprototype.R
+import com.capstone.prettyU.R
 
 class EdtFormPassword @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
@@ -73,7 +73,7 @@ class EdtFormPassword @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        hint = context.getString(R.string.hint_input_password)
+        //hint = context.getString(R.string.hint_input_password)
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
         if (text!!.length in 1..7) {
             drawCanvas(canvas)

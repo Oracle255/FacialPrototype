@@ -11,4 +11,9 @@ class RegisterActivity : AppCompatActivity() {
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
+
+    // TODO: set animasi
+    private fun playAnimation() {
+
+    }
 }

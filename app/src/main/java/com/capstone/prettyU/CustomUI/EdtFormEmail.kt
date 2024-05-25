@@ -68,7 +68,7 @@ class EdtFormEmail @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        hint = context.getString(R.string.hint_input_email)
+        //hint = context.getString(R.string.hint_input_email)
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
 
         // TODO: TAMBAH fungsi regeX check format email

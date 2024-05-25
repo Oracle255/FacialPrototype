@@ -112,7 +112,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.capstone.prettyU.CustomUI.BtnCustomGeneral
-                android:id="@+id/Sign_in"
+                android:id="@+id/btn_sign_in"
                 android:layout_width="249dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

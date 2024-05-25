@@ -11,7 +11,10 @@ class ProtoLanding : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityProtoLandingBinding.inflate(layoutInflater)
         setContentView(binding.root)
+    }
 
+    // TODO: set animasi
+    private fun playAnimation() {
 
     }
 }

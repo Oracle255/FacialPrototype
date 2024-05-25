@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Pretty U!</string>
     <string name="placeholder_empty_button">NOT YET IMPLEMENTED</string>
+    <string name="text_user">Username</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="text_btn_login">Login</string>
 
     //login
     <string name="login_notifikasi">Fill with Your Account</string>

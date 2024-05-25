@@ -10,7 +10,7 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
-import com.example.facialprototype.R
+import com.capstone.prettyU.R
 
 class EdtFormName @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
@@ -43,7 +43,7 @@ class EdtFormName @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        hint = context.getString(R.string.hint_input_name)
+        //hint = context.getString(R.string.hint_input_name)
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
     }
 
