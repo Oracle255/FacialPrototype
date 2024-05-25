@@ -1,4 +1,27 @@
 <resources>
     <string name="app_name">Pretty U!</string>
     <string name="placeholder_empty_button">NOT YET IMPLEMENTED</string>
+
+    //login
+    <string name="login_notifikasi">Fill with Your Account</string>
+    <string name="login_name">Username</string>
+    <string name="login_password">Password</string>
+
+    //register
+    <string name="register_notifikasi">Make Your Account</string>
+    <string name="register_username">Username</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_pass_check">Re-type Password</string>
+    //hint
+    <string name="register_pass_hint">Enter Your Password Again </string>
+
+    //logout
+    <string name="logout">Logout</string>
+    <string name="text_msg_invalid_email">salah lur</string>
+    <string name="hint_input_email">masukan email kau</string>
+    <string name="hint_input_name">Fill Your Username</string>
+    <string name="hint_input_password">Input Your Passwoord</string>
+    <string name="edtHintPasswordMinimum">minimal 8 char, uppercase, symbol,number</string>
+
 </resources>
