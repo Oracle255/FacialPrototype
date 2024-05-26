@@ -40,14 +40,18 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="72dp"
-                android:text="@string/register_notifikasi" />
+                android:text="@string/register_notifikasi"
+                android:textColor="@color/textDark"
+                android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginEnd="10dp">
+                android:layout_marginEnd="10dp"
+                android:textColorHint="@color/textDark"
+                app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormName
                     android:id="@+id/ed_register_username"
@@ -57,7 +61,8 @@
                     android:ems="10"
                     android:hint="@string/register_username"
                     android:inputType="text"
-                    android:text="@string/register_username" />
+                    android:textColor="@color/textDark"
+                    android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -65,7 +70,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginEnd="10dp">
+                android:layout_marginEnd="10dp"
+                android:textColorHint="@color/textDark"
+                app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormEmail
                     android:id="@+id/ed_register_email"
@@ -74,7 +81,8 @@
                     android:ems="10"
                     android:hint="@string/register_email"
                     android:inputType="textWebEmailAddress"
-                    android:text="@string/register_email" />
+                    android:textColor="@color/textDark"
+                    android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -82,7 +90,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginEnd="10dp">
+                android:layout_marginEnd="10dp"
+                android:textColorHint="@color/textDark"
+                app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormPassword
                     android:id="@+id/ed_register_password"
@@ -91,7 +101,8 @@
                     android:ems="10"
                     android:hint="@string/register_password"
                     android:inputType="textPassword"
-                    android:text="@string/register_password" />
+                    android:textColor="@color/textDark"
+                    android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -99,7 +110,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginEnd="10dp">
+                android:layout_marginEnd="10dp"
+                android:textColorHint="@color/textDark"
+                app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormPassword
                     android:id="@+id/ed_register_pass_check"
@@ -108,7 +121,8 @@
                     android:ems="10"
                     android:hint="@string/register_pass_hint"
                     android:inputType="textPassword"
-                    android:text="@string/register_pass_check" />
+                    android:textColor="@color/textDark"
+                    android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.capstone.prettyU.CustomUI.BtnCustomGeneral
