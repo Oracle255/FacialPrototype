@@ -1,4 +1,4 @@
-package com.capstone.prettyU.ProtoActivity
+package com.capstone.prettyU.View.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

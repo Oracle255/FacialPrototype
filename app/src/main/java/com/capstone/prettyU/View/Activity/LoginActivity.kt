@@ -1,11 +1,10 @@
-package com.capstone.prettyU.ProtoActivity
+package com.capstone.prettyU.View.Activity
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.capstone.prettyU.R
 import com.capstone.prettyU.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {

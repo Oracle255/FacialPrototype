@@ -1,4 +1,4 @@
-package com.capstone.prettyU.CustomUI
+package com.capstone.prettyU.View.CustomUI
 
 import android.content.Context
 import android.graphics.Canvas

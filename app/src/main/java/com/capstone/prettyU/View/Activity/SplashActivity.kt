@@ -1,4 +1,4 @@
-package com.capstone.prettyU.ProtoActivity
+package com.capstone.prettyU.View.Activity
 
 import android.animation.Animator
 import android.animation.AnimatorSet

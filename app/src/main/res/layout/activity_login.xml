@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_splash_gradient"
-    tools:context=".ProtoActivity.LoginActivity">
+    tools:context=".View.Activity.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                     android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.capstone.prettyU.CustomUI.BtnCustomGeneral
+            <com.capstone.prettyU.View.CustomUI.BtnCustomGeneral
                 android:id="@+id/btn_sign_in"
                 android:layout_width="249dp"
                 android:layout_height="wrap_content"

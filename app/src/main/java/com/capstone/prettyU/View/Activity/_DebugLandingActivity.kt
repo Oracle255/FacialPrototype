@@ -1,4 +1,4 @@
-package com.capstone.prettyU.ProtoActivity
+package com.capstone.prettyU.View.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -18,19 +18,30 @@ class _DebugLandingActivity : AppCompatActivity() {
 
             btnDebugSplash.isEnabled = true
             btnDebugSplash.setOnClickListener {
-                startActivity(Intent(currentActivity, SplashActivity::class.java))
+                moveTo(SplashActivity::class.java)
             }
 
             btnDebugLogin.isEnabled = true
             btnDebugLogin.setOnClickListener {
-                startActivity(Intent(currentActivity, LoginActivity::class.java))
+                moveTo(LoginActivity::class.java)
             }
 
             btnDebugRegister.isEnabled = true
             btnDebugRegister.setOnClickListener {
-                startActivity(Intent(currentActivity, RegisterActivity::class.java))
+                moveTo(RegisterActivity::class.java)
             }
 
+            btnDebugMain.isEnabled = true
+            btnDebugMain.setOnClickListener {
+                moveTo(MainActivity::class.java)
+            }
+
+
         }
+    }
+
+    // Simplifikasi
+    private fun moveTo(nextActivity: Class<*>) {
+        startActivity(Intent(currentActivity, nextActivity))
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_splash_gradient"
-    tools:context=".ProtoActivity.SplashActivity">
+    tools:context=".View.Activity.SplashActivity">
 
     <LinearLayout
         android:id="@+id/ll_master"
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25sp"
-                android:fontFamily="@font/Morina"
+                android:fontFamily="@font/morina"
                 android:text="Digital coach "
                 android:textAlignment="center"
                 android:textAllCaps="false"
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25sp"
-                android:fontFamily="@font/Morina"
+                android:fontFamily="@font/morina"
                 android:text="for better skin health"
                 android:textAlignment="center"
                 android:textColor="@color/primary"
@@ -85,8 +85,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
-            android:scaleX="0.5f"
-            android:scaleY="0.5f"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
             app:srcCompat="@drawable/ic_gincu" />
 
         <ImageView
@@ -94,9 +94,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:scaleX="0.5f"
-            android:scaleY="0.5f"
             android:layout_marginTop="45dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
             app:srcCompat="@drawable/ic_wedak" />
 
         <ImageView
@@ -104,8 +104,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="end"
-            android:scaleX="0.5f"
-            android:scaleY="0.5f"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
             app:srcCompat="@drawable/ic_eyeliner" />
 
     </LinearLayout>
