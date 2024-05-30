@@ -46,7 +46,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25sp"
-                android:fontFamily="@font/Morina"
                 android:text="Digital coach "
                 android:textAlignment="center"
                 android:textAllCaps="false"
@@ -60,7 +59,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25sp"
-                android:fontFamily="@font/Morina"
                 android:text="for better skin health"
                 android:textAlignment="center"
                 android:textColor="@color/primary"
@@ -85,8 +83,6 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
-            android:scaleX="0.5f"
-            android:scaleY="0.5f"
             app:srcCompat="@drawable/ic_gincu" />
 
         <ImageView
@@ -94,8 +90,6 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:scaleX="0.5f"
-            android:scaleY="0.5f"
             android:layout_marginTop="45dp"
             app:srcCompat="@drawable/ic_wedak" />
 
@@ -104,10 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="end"
-            android:scaleX="0.5f"
-            android:scaleY="0.5f"
             app:srcCompat="@drawable/ic_eyeliner" />
-
     </LinearLayout>
 
     <LinearLayout
