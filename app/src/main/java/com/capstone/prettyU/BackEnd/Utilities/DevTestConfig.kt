@@ -22,24 +22,6 @@ class DevTestConfig {
             return lorem.getWords(length)
         }
 
-        fun sampahStringGenerator(length: Int): String {
-            val randomSampah = arrayOf(
-                " (Sampah) ",
-                " (Ini sampah) ",
-                " (Ini Juga Sampah) ",
-                " (Masih Sampah) ",
-                " (I̵n̵i̴ ̸S̴a̷m̵p̶a̵h̴ ̶T̷e̵r̷k̷u̶t̸u̶k̶) ",
-                " (Ini tidak sampah) "
-            )
 
-            var result = ""
-            var i = 0
-            while (i < length) {
-                val randomer = randomSampah[Random.nextInt(0, randomSampah.size)]
-                result += randomer
-                i++
-            }
-            return result
-        }
     }
 }

@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/frameLayout"
+            android:id="@+id/ll_image"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginStart="20dp"
@@ -53,8 +53,10 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
+                android:background="@color/background"
                 android:textColorHint="@color/textDark"
-                app:boxStrokeColor="@color/accentDark">
+                app:boxStrokeColor="@color/accentDark"
+                app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormName
                     android:id="@+id/ed_login_username"
@@ -75,8 +77,10 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
+                android:background="@color/background"
                 android:textColorHint="@color/textDark"
-                app:boxStrokeColor="@color/accentDark">
+                app:boxStrokeColor="@color/accentDark"
+                app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormPassword
                     android:id="@+id/ed_login_password"
