@@ -27,5 +27,7 @@
     <string name="hint_input_name">Fill Your Username</string>
     <string name="hint_input_password">Input Your Passwoord</string>
     <string name="edtHintPasswordMinimum">minimal 8 char, uppercase, symbol,number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
