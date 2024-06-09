@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.capstone.prettyU.BackEnd.Utilities.Constant.AnimationConstant
-import com.capstone.prettyU.BackEnd.Utilities.DevTestConfig
+import com.capstone.prettyU.BackEnd.Utilities.Constant.DevTestConfig
 import com.capstone.prettyU.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {

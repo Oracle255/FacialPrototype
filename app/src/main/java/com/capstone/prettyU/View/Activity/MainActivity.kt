@@ -4,16 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import androidx.lifecycle.ReportFragment.Companion.reportFragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.capstone.prettyU.BackEnd.Utilities.DevTestConfig.Companion.loremWithLength
-import com.capstone.prettyU.BackEnd.data.Item
 import com.capstone.prettyU.R
 import com.capstone.prettyU.View.Fragment.FaceScanFragment
 import com.capstone.prettyU.View.Fragment.MainPageFragment
-import com.capstone.prettyU.View.adapter.ItemData.TreatmentData
-import com.capstone.prettyU.View.adapter.RvAdapterHorizontal
 import com.capstone.prettyU.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 

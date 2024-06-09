@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.capstone.prettyU.BackEnd.Utilities.DevTestConfig
+import com.capstone.prettyU.BackEnd.Utilities.Constant.DevTestConfig
 import com.capstone.prettyU.R
 import com.capstone.prettyU.View.adapter.ItemData.TreatmentData
 import com.capstone.prettyU.View.adapter.RvAdapterHorizontal
@@ -17,11 +17,6 @@ import com.capstone.prettyU.databinding.FragmentMainPageBinding
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [MainPageFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class MainPageFragment : Fragment() {
 
     private var _binding: FragmentMainPageBinding? = null
@@ -67,15 +62,6 @@ class MainPageFragment : Fragment() {
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment MainPageFragment.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             MainPageFragment().apply {

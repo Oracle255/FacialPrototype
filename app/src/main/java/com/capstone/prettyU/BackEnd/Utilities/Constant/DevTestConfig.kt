@@ -1,8 +1,7 @@
-package com.capstone.prettyU.BackEnd.Utilities
+package com.capstone.prettyU.BackEnd.Utilities.Constant
 
 import com.thedeanda.lorem.Lorem
 import com.thedeanda.lorem.LoremIpsum
-import kotlin.random.Random
 
 class DevTestConfig {
     companion object {
