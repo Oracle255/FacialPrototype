@@ -107,7 +107,6 @@
             android:scaleX="0.5"
             android:scaleY="0.5"
             app:srcCompat="@drawable/ic_eyeliner" />
-
     </LinearLayout>
 
     <LinearLayout
