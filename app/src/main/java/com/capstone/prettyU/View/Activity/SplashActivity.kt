@@ -1,4 +1,4 @@
-package com.capstone.prettyU.ProtoActivity
+package com.capstone.prettyU.View.Activity
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -7,14 +7,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.capstone.prettyU.BackEnd.Utilities.DevTestConfig
+import com.capstone.prettyU.BackEnd.Utilities.Constant.AnimationConstant
+import com.capstone.prettyU.BackEnd.Utilities.Constant.DevTestConfig
 import com.capstone.prettyU.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySplashBinding
     private var animationIsFinished = false
     private val testingMode = DevTestConfig.testingMode
-    private val animationExtraDelay: Long = 900
+    private val animationExtraDelay: Long = 1000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,21 +30,25 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun playAnimation() {
-
+        val const = AnimationConstant
         // INITIALIZE STARTING PARAMETER
         binding.ivAppName.scaleX = 0f
         binding.ivAppName.scaleY = 0f
         binding.tvMessage1.translationX = 400f
 
         val ivAppNameScaleX =
-            ObjectAnimator.ofFloat(binding.ivAppName, View.SCALE_X, 1f).setDuration(1000)
+            ObjectAnimator.ofFloat(binding.ivAppName, View.SCALE_X, 1f)
+                .setDuration(const.animDurationExtraLong)
         val ivAppNameScaleY =
-            ObjectAnimator.ofFloat(binding.ivAppName, View.SCALE_Y, 1f).setDuration(1000)
+            ObjectAnimator.ofFloat(binding.ivAppName, View.SCALE_Y, 1f)
+                .setDuration(const.animDurationExtraLong)
         val tvMessage1TranslationY =
-            ObjectAnimator.ofFloat(binding.tvMessage1, View.TRANSLATION_X, 0f).setDuration(500)
+            ObjectAnimator.ofFloat(binding.tvMessage1, View.TRANSLATION_X, 0f)
+                .setDuration(const.animDurationLong)
 
         val emptyAnimation =
-            ObjectAnimator.ofFloat(binding.ivAppName, View.ALPHA, 1f).setDuration(animationExtraDelay)
+            ObjectAnimator.ofFloat(binding.ivAppName, View.ALPHA, 1f)
+                .setDuration(animationExtraDelay)
 
         val pairAnimIvAppName = AnimatorSet().apply {
             playTogether(ivAppNameScaleX, ivAppNameScaleY)

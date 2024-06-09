@@ -9,8 +9,9 @@
     <color name="background">#ACF3DE</color>
     <color name="backgroundAccent">#EFCBE1</color>
     <color name="backgroundLighter">#F3EFF1</color>
-    <color name="backgroundGradientBuilder1">#B4F6E2</color>
-    <color name="backgroundGradientBuilder2">#06F3AD</color>
+    <color name="backgroundGradientBuilder1">#FDFDFD</color>
+    <color name="backgroundGradientBuilder2">#DAFDF3</color>
+    <color name="backgroundItemList">#80CBC4</color>
 
     <color name="textPop">#E30425</color>
     <color name="textLight">#EFE9E9</color>
