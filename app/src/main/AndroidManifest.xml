@@ -18,6 +18,9 @@
         android:theme="@style/Theme.FacialPrototype"
         tools:targetApi="31">
         <activity
+            android:name=".View.Activity.AppSetting"
+            android:exported="false" />
+        <activity
             android:name=".View.Activity.CameraActivity"
             android:exported="false" />
         <activity
