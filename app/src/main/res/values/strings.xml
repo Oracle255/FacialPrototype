@@ -38,5 +38,14 @@
     <string name="Notification">Notification</string>
     <string name="Theme">Theme</string>
     <string name="delete">Delete Account</string>
+    
+    //Notification
+    <string name="send_notif">Send Notif</string>
+    <string name="notification_title">Dicoding Indonesia</string>
+    <string name="notification_message">Udah minum berapa liter hari ini? Stay hydrated everyone\Yuk penuhi nutrisi untuk kulit lewat realfood\Jangan lupa pakai sunscreen ya</string>
+    <string name="notification_subtext">Reminder</string>
+    <string name="open_tips">Open Tips</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
 
 </resources>
