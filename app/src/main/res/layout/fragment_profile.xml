@@ -8,7 +8,7 @@
     tools:context="com.capstone.prettyU.View.Fragment.ProfileFragment">
 
     <LinearLayout
-        android:id="@+id/ll_master"
+        android:id="@+id/ll_master1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -17,129 +17,288 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <FrameLayout
+        <LinearLayout
+            android:id="@+id/ll_profile1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/bg_splash_gradient">
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/ivProfile"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_placeholder" />
-
-            <TextView
-                android:id="@+id/tvUserProfile"
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="User"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_splash_gradient">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_placeholder" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/morina"
+                android:text="Edit Your Profile Photo"
                 android:textAlignment="center"
                 android:textStyle="bold|italic" />
 
-        </FrameLayout>
+
+        </LinearLayout>
 
         <View
-            android:id="@+id/divider2"
+            android:id="@+id/divprofile1"
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="@color/primary" />
 
         <LinearLayout
-            android:id="@+id/llv_skin_type"
+            android:id="@+id/ll_profile2"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/linearLayout2"
-                android:layout_width="100dp"
+                android:id="@+id/llh_profile_name"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:orientation="vertical">
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_box"
+                android:fadingEdge="horizontal|vertical"
+                android:fadingEdgeLength="5dp"
+                android:orientation="horizontal"
+                android:showDividers="middle|end">
 
                 <TextView
-                    android:id="@+id/lbSkinDisease"
-                    android:layout_width="match_parent"
+                    android:id="@+id/lbNameProfile"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="Skin Disease"
-                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/morina"
+                    android:text="Name"
                     android:textStyle="bold|italic" />
 
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/ic_placeholder" />
+                <LinearLayout
+                    android:id="@+id/lin_button_name_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvNameProfile"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="40"
+                        android:fontFamily="@font/morina"
+                        android:text="qweqweqweqw"
+                        android:textAlignment="viewStart"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:id="@+id/Iv_simbol1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/ic_arrow" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llh_profile_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tvSkinDiseaseProfile"
-                    android:layout_width="match_parent"
+                    android:id="@+id/lbUserProfile"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="Missing"
-                    android:textAlignment="center" />
+                    android:layout_weight="1"
+                    android:fontFamily="@font/morina"
+                    android:text="Username"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:id="@+id/lin_button_user_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvUserProfile"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="40"
+                        android:fontFamily="@font/morina"
+                        android:text="Username"
+                        android:textAlignment="viewStart"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:id="@+id/Iv_simbol2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/ic_arrow" />
+                </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout"
-                android:layout_width="100dp"
+                android:id="@+id/llh_profile_email"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:orientation="vertical">
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/lbSkinType"
-                    android:layout_width="match_parent"
+                    android:id="@+id/lbEmailProfile"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="Skin Type"
-                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/morina"
+                    android:text="Email"
                     android:textStyle="bold|italic" />
 
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/ic_placeholder" />
+                <LinearLayout
+                    android:id="@+id/lin_button_email_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/tvTypeProfile"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Missing"
-                    android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/tvEmailProfile"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="40"
+                        android:fontFamily="@font/morina"
+                        android:text="Email"
+                        android:textAlignment="viewStart"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:id="@+id/Iv_simbol3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/ic_arrow" />
+                </LinearLayout>
 
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/llh_profile_bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbBioProfile"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/morina"
+                    android:text="Bio"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:id="@+id/lin_button_bio_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBioProfile"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="40"
+                        android:fontFamily="@font/morina"
+                        android:text="Bio"
+                        android:textAlignment="viewStart"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:id="@+id/Iv_simbol4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/ic_arrow" />
+                </LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
 
+        <View
+            android:id="@+id/divprofile2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/primary" />
+
         <LinearLayout
-            android:id="@+id/llv_rate"
+            android:id="@+id/ll_profile3"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="25dp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvRateUs"
+                android:id="@+id/lbSkinType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rate Us"
-                android:textAlignment="center" />
+                android:text="Skin Type"
+                android:textAlignment="center"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_placeholder" />
 
             <TextView
-                android:id="@+id/tvImprove"
+                android:id="@+id/tvTypeProfile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="How can we improve?"
+                android:text="Missing"
                 android:textAlignment="center" />
         </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

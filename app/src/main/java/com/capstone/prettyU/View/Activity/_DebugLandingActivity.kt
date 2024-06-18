@@ -1,8 +1,8 @@
 package com.capstone.prettyU.View.Activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.capstone.prettyU.databinding.ActivityDebugLandingBinding
 
 class _DebugLandingActivity : AppCompatActivity() {
@@ -34,6 +34,11 @@ class _DebugLandingActivity : AppCompatActivity() {
             btnDebugMain.isEnabled = true
             btnDebugMain.setOnClickListener {
                 moveTo(MainActivity::class.java)
+            }
+
+            btnDebugTips.isEnabled = true
+            btnDebugTips.setOnClickListener {
+                moveTo(TipsActivity::class.java)
             }
 
 

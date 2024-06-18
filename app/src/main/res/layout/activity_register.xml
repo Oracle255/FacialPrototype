@@ -26,7 +26,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/res_prettyu_text"/>
+                android:scaleX="3"
+                android:scaleY="3"
+                android:src="@drawable/ic_logo_huruf"/>
         </LinearLayout>
 
         <LinearLayout
@@ -43,6 +45,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="72dp"
                 android:text="@string/register_notifikasi"
+                android:fontFamily="@font/morina"
                 android:textColor="@color/textDark"
                 android:textStyle="bold" />
 

@@ -2,9 +2,9 @@ package com.capstone.prettyU.View.Activity
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.capstone.prettyU.BackEnd.Utilities.Constant.AnimationConstant
 import com.capstone.prettyU.databinding.ActivityRegisterBinding
 
@@ -34,6 +34,7 @@ class RegisterActivity : AppCompatActivity() {
         binding.edRegisterPassword.translationX = -400f
         binding.inputPasswordCheck.translationX = -400f
         binding.edRegisterPassCheck.translationX = -400f
+        //binding.edRegisterPassCheck.hint = ""
 
         binding.btnSignIn.translationY = 400f
 
@@ -51,6 +52,7 @@ class RegisterActivity : AppCompatActivity() {
         val edRegisterUsername =
             ObjectAnimator.ofFloat(binding.edRegisterUsername, View.TRANSLATION_X, 0f)
                 .setDuration(const.animDurationMedium)
+        //val edRegisterUsernameHint =
 
         val inputEmail =
             ObjectAnimator.ofFloat(binding.inputEmail, View.TRANSLATION_X, 0f)

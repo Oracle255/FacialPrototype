@@ -25,7 +25,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/res_prettyu_text" />
+                android:scaleY="3"
+                android:scaleX="3"
+                android:src="@drawable/ic_logo_huruf" />
         </FrameLayout>
 
         <LinearLayout
@@ -42,6 +44,7 @@
                 android:layout_marginTop="72dp"
                 android:text="@string/login_notifikasi"
                 android:textAlignment="center"
+                android:fontFamily="@font/morina"
                 android:textColor="@color/textDark"
                 android:textColorHint="@color/textDark"
                 android:textStyle="bold" />
@@ -53,21 +56,19 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
-                android:background="@color/background"
                 android:textColorHint="@color/textDark"
-                app:boxStrokeColor="@color/accentDark"
+                app:boxBackgroundColor="@color/background"
                 app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormName
                     android:id="@+id/ed_login_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:autofillHints="@string/text_user"
                     android:ems="10"
-                    android:hint="@string/text_user"
+                    android:hint="@string/register_email"
+                    android:inputType="textWebEmailAddress"
                     android:layout_marginStart="5dp"
-                    android:inputType="text"
+                    android:textColor="@color/textDark"
                     android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -78,19 +79,20 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
-                android:background="@color/background"
                 android:textColorHint="@color/textDark"
-                app:boxStrokeColor="@color/accentDark"
+                app:boxBackgroundColor="@color/background"
                 app:hintTextColor="@color/textDark">
 
                 <com.example.afbstoryapp.view.customUI.EdtFormPassword
                     android:id="@+id/ed_login_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:ems="10"
-                    android:hint="@string/text_password"
+                    android:hint="@string/login_password"
+                    android:inputType="text"
                     android:layout_marginStart="5dp"
-                    android:inputType="textPassword"
+                    android:textColor="@color/textDark"
                     android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
 

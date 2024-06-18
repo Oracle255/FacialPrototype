@@ -12,7 +12,6 @@ class DevTestConfig {
 
 
         // STRING GENERATOR BWT TESTING
-
         fun loremParagraph(lengthMin: Int, lengthMax: Int): String {
             return lorem.getTitle(lengthMin, lengthMax)
         }

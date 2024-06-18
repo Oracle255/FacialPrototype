@@ -8,100 +8,119 @@
     tools:context=".View.Activity.AppSetting">
 
     <LinearLayout
-        android:id="@+id/llv_edtsetting"
+        android:id="@+id/ll_master"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/tv_app_setting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="72dp"
+            android:fontFamily="@font/bandung"
             android:text="@string/app_setting"
+            android:textColor="@color/textDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llv_edtsetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llh_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_box"
+                android:fadingEdge="horizontal|vertical"
+                android:fadingEdgeLength="5dp"
+                android:orientation="horizontal"
+                android:showDividers="middle|end">
+
+                <TextView
+                    android:id="@+id/lbNameProfile"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/morina"
+                    android:text="Language"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:id="@+id/lin_button_name_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvNameProfile"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="40"
+                        android:fontFamily="@font/morina"
+                        android:text="uganda"
+                        android:textAlignment="viewStart"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:id="@+id/Iv_simbol1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/ic_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="72dp"
+                android:fontFamily="@font/morina"
+                android:text="@string/Notification"
+                android:textColor="@color/textDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="72dp"
+                android:fontFamily="@font/morina"
+                android:text="@string/Theme"
+                android:textColor="@color/textDark"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <com.capstone.prettyU.View.CustomUI.BtnCustomGeneral
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="@color/textDark"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tv_language"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:text="@string/language"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/textDark"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tv_region"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:text="@string/region"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/textDark"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tv_notification"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:text="@string/Notification"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/textDark"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tv_theme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:text="@string/Theme"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/textDark"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/llv_edt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <TextView
-            android:id="@+id/tv_acc_setting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="72dp"
-            android:text="@string/acc_setting"
-            android:textColor="@color/textDark"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tv_logout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginTop="72dp"
             android:text="@string/logout"
-            android:layout_marginStart="5dp"
             android:textColor="@color/textDark"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tv_delete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:text="@string/delete"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/textDark"
-            android:textStyle="bold" />
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
