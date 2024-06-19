@@ -48,4 +48,32 @@
     <string name="title">Title</string>
     <string name="message">Message</string>
 
+
+    //ARTICLE
+        //dry
+    <string-array name="article_dry_1">
+        <item>
+            title1
+        </item>
+        <item>
+            content1
+        </item>
+    </string-array>
+    <string-array name="article_dry2">
+        <item>
+            title2
+        </item>
+        <item>
+            content2
+        </item>
+    </string-array>
+    <string-array name="article_dry_3">
+        <item>
+            title3
+        </item>
+        <item>
+            content3
+        </item>
+    </string-array>
+
 </resources>

@@ -9,7 +9,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstone.prettyU.BackEnd.Utilities.Constant.DevTestConfig
 import com.capstone.prettyU.R
 import com.capstone.prettyU.View.adapter.ItemData.TreatmentData
-import com.capstone.prettyU.View.adapter.RvAdapterHorizontal
+import com.capstone.prettyU.View.adapter.RvAdapterTreatment
+import com.capstone.prettyU.View.adapter.TipsData
 import com.capstone.prettyU.databinding.FragmentMainPageBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -24,6 +25,8 @@ class MainPageFragment : Fragment() {
 
     private var param1: String? = null
     private var param2: String? = null
+
+    private val articleCode: String = "dry"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,17 +43,19 @@ class MainPageFragment : Fragment() {
         _binding = FragmentMainPageBinding.inflate(layoutInflater, container, false)
         val view = binding.root
         val rvItem = binding.rvItem
+        rvItem.layoutManager = LinearLayoutManager(context)
+        //rvItem.adapter = adapter
 
-        rvItem.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false) // Set horizontal orientation
+        //rvItem.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false) // Set horizontal orientation
 
         // TODO: (SET ONCLICK LISTENER) & Mock data json api
         val dataList = listOf(
-            TreatmentData(R.drawable.ic_placeholder, "wdqwdqwdqwdqwdqw", "${DevTestConfig.loremWithLength(12)}"),
-            TreatmentData(R.drawable.ic_placeholder, "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
-            TreatmentData(R.drawable.ic_placeholder, "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}")
+            TipsData("wdqwdqwdqwdqwdqw", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}")
         )
 
-        val adapter = RvAdapterHorizontal(dataList)
+        val adapter = RvAdapterTreatment(requireContext(),dataList)
         rvItem.adapter = adapter
 
         return view

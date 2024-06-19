@@ -27,4 +27,12 @@ class TipsActivity : AppCompatActivity() {
             tvContent2.text = loremParagraph(100, 500)
         }
     }
+
+    companion object {
+        const val EXTRA_TITLE = "EXTRA_TITLE"
+        const val EXTRA_MESSAGE = "EXTRA_MESSAGE"
+    }
 }
+
+
+

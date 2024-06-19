@@ -40,17 +40,13 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvItem"
-            android:layout_width="398dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:fadingEdge="horizontal"
-            android:layoutDirection="inherit"
-            android:orientation="vertical"
-            android:scrollbars="vertical"
-            tools:layoutManager="GridLayoutManager"
-            tools:spanCount="5">
+            android:layoutDirection="inherit">
 
         </androidx.recyclerview.widget.RecyclerView>
 

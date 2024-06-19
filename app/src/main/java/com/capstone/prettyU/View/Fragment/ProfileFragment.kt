@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.EditText
+import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import com.capstone.prettyU.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -56,5 +59,25 @@ class ProfileFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+    }
+
+    private fun editDialog() {
+        val dialogView = LayoutInflater.from(context).inflate(R.layout.item_profile_edit, null)
+        val tvTitle = dialogView.findViewById<TextView>(R.id.tv_profile_edit_title)
+        val edtProfile = dialogView.findViewById<EditText>(R.id.edt_profile)
+
+        val builder = AlertDialog.Builder(requireContext())
+            .setTitle("AAAAA")
+            .setView(dialogView)
+            .setPositiveButton("OK") {dialog, _ ->
+                val edtContent = edtProfile.text.toString()
+
+
+            }
+            .setNegativeButton("cancel") {dialog, _ ->
+                dialog.dismiss()
+            }
+        val dialog = builder.create()
+        dialog.show()
     }
 }

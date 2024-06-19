@@ -1,0 +1,10 @@
+package com.capstone.prettyU.BackEnd.Api.Response
+
+import com.google.gson.annotations.SerializedName
+
+data class MessageResponse(
+    @field:SerializedName("error")
+    val error: Boolean,
+    @field:SerializedName("message")
+    val message: String
+)

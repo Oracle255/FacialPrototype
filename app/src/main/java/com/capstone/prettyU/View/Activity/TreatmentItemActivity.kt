@@ -16,4 +16,8 @@ class TreatmentItemActivity : AppCompatActivity() {
 
 
     }
+
+    companion object {
+        const val CONTENT_TITLE = "CONTENT_TITLE"
+    }
 }
