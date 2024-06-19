@@ -41,7 +41,6 @@
     
     //Notification
     <string name="send_notif">Send Notif</string>
-    <string name="notification_title">Dicoding Indonesia</string>
     <string name="notification_message">Udah minum berapa liter hari ini? Stay hydrated everyone\Yuk penuhi nutrisi untuk kulit lewat realfood\Jangan lupa pakai sunscreen ya</string>
     <string name="notification_subtext">Reminder</string>
     <string name="open_tips">Open Tips</string>
@@ -58,13 +57,19 @@
         <item>
             content1
         </item>
+        <item>
+            content1-1
+        </item>
     </string-array>
-    <string-array name="article_dry2">
+    <string-array name="article_dry_2">
         <item>
             title2
         </item>
         <item>
             content2
+        </item>
+        <item>
+            content2-1
         </item>
     </string-array>
     <string-array name="article_dry_3">
@@ -72,8 +77,12 @@
             title3
         </item>
         <item>
-            content3
+            content3-1
         </item>
+        <item>
+            content3-2
+        </item>
+
     </string-array>
 
 </resources>

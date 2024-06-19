@@ -117,12 +117,12 @@
                     android:text="TIPS" />
 
                 <com.capstone.prettyU.View.CustomUI.BtnCustomGeneral
-                    android:id="@+id/btnCustomGeneral"
+                    android:id="@+id/btn_debug_notif"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5sp"
                     android:enabled="false"
-                    android:text="@string/placeholder_empty_button" />
+                    android:text="Notification" />
 
                 <com.capstone.prettyU.View.CustomUI.BtnCustomGeneral
                     android:id="@+id/btnCustomGeneral2"

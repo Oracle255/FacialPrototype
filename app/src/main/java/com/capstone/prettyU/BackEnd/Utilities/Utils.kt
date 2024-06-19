@@ -5,20 +5,15 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.graphics.Canvas
 import android.location.Geocoder
 import android.net.Uri
 import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
-import android.util.Log
-import androidx.annotation.ColorInt
-import androidx.annotation.DrawableRes
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.FileProvider
-import androidx.core.content.res.ResourcesCompat
-import androidx.core.graphics.drawable.DrawableCompat
 import com.capstone.prettyU.BuildConfig
+import com.capstone.prettyU.R
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.FileOutputStream
@@ -128,6 +123,49 @@ class Utils {
         }
         val dialog = builder.create()
         dialog.show()
+    }
+
+    fun setTipsContent(context: Context, reqCode : String): Array<String> {
+        val resources = context.resources
+        var title = "KOSONG"
+        var desc1 = "KOSONG"
+        var desc2 = "KOSONG"
+        //val universities = arrayListOf<String>(*)
+
+        fun content1 () {
+            title =  resources.getStringArray(R.array.article_dry_1)[0]
+            desc1 =  resources.getStringArray(R.array.article_dry_1)[1]
+            desc2 =  resources.getStringArray(R.array.article_dry_1)[2]
+            //title =
+        }
+        fun content2 () {
+            title =  resources.getStringArray(R.array.article_dry_2)[0]
+            desc1 =  resources.getStringArray(R.array.article_dry_2)[1]
+            desc2 =  resources.getStringArray(R.array.article_dry_2)[2]
+            //title =
+        }
+        fun content3 () {
+            title =  resources.getStringArray(R.array.article_dry_3)[0]
+            desc1 =  resources.getStringArray(R.array.article_dry_3)[1]
+            desc2 =  resources.getStringArray(R.array.article_dry_3)[2]
+            //title =
+        }
+
+        fun outOfBound() {
+            title = "mbuh error"
+            desc1 = "mbuh error"
+            desc2 = "mbuh error"
+        }
+
+        when (reqCode) {
+            "1" -> content1()
+            "2" -> content1()
+            "3" -> content1()
+            else -> {
+                outOfBound()
+            }
+        }
+        return arrayOf(title, desc1, desc2)
     }
 
 }

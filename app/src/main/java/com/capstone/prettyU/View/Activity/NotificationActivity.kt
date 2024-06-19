@@ -7,7 +7,6 @@ import android.app.PendingIntent
 import android.app.TaskStackBuilder
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
@@ -16,10 +15,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import com.capstone.prettyU.R
 import com.capstone.prettyU.databinding.ActivityNotificationBinding
+import kotlin.random.Random
 
 class NotificationActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityNotificationBinding
+
 
     private val requestPermissionLauncher =
         registerForActivityResult(
@@ -40,7 +41,7 @@ class NotificationActivity : AppCompatActivity() {
             requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
 
-        val title = getString(R.string.notification_title)
+        val title = getString(R.string.app_name)
         val message = getString(R.string.notification_message)
 
         binding.btnSendNotification.setOnClickListener {
@@ -59,8 +60,10 @@ class NotificationActivity : AppCompatActivity() {
         val notifDetailIntent = Intent(this, TipsActivity::class.java)
         notifDetailIntent.putExtra(TipsActivity.EXTRA_TITLE, title)
         notifDetailIntent.putExtra(TipsActivity.EXTRA_MESSAGE, message)
+        notifDetailIntent.putExtra(TipsActivity.REQUEST_CODE, "${Random.nextInt(1,3)}")
 
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://dicoding.com"))
+
+        //val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://dicoding.com"))
         val pendingIntent = TaskStackBuilder.create(this).run {
             addNextIntentWithParentStack(notifDetailIntent)
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -96,7 +99,7 @@ class NotificationActivity : AppCompatActivity() {
     companion object {
         private const val NOTIFICATION_ID = 1
         private const val CHANNEL_ID = "channel_01"
-        private const val CHANNEL_NAME = "dicoding channel"
+        private const val CHANNEL_NAME = "pretty u channel"
     }
 
 }

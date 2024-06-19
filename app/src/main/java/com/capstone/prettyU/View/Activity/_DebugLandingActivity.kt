@@ -61,6 +61,11 @@ class _DebugLandingActivity : AppCompatActivity() {
                 moveTo(TipsActivity::class.java)
             }
 
+            btnDebugNotif.isEnabled = true
+            btnDebugNotif.setOnClickListener {
+                moveTo(NotificationActivity::class.java)
+            }
+
 
         }
     }
