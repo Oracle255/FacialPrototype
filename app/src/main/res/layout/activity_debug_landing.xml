@@ -37,6 +37,34 @@
                     android:textSize="34sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/tvDebugToken"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="TOKEN = " />
+
+                <TextView
+                    android:id="@+id/tvDebugName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="NAME = " />
+
+                <TextView
+                    android:id="@+id/tvDebugEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="EMAIL = " />
+
+                <com.capstone.prettyU.View.CustomUI.BtnCustomGeneral
+                    android:id="@+id/btnDebugClearData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="CLEAR DATA" />
+
             </LinearLayout>
 
             <LinearLayout

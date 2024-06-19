@@ -1,12 +1,13 @@
 package com.capstone.prettyU.BackEnd.Api
 
+import com.capstone.prettyU.BackEnd.Utilities.Constant.baseURL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class ApiConfig {
-    private val baseURL = ""
+object ApiConfig {
+    private val baseURL = baseURL()
     fun getApiService(): ApiService {
         val loggingInterceptor =
             HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
@@ -14,7 +15,7 @@ class ApiConfig {
             .addInterceptor(loggingInterceptor)
             .build()
         val retrofit = Retrofit.Builder()
-            .baseUrl(baseURL)
+            .baseUrl("https://prettyu-kjcd3rrb2a-et.a.run.app/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()

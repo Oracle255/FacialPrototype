@@ -52,6 +52,27 @@ class MainPageFragment : Fragment() {
         val dataList = listOf(
             TipsData("wdqwdqwdqwdqwdqw", "${DevTestConfig.loremWithLength(12)}"),
             TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
+            TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}"),
             TipsData( "${DevTestConfig.loremWithLength(1)}", "${DevTestConfig.loremWithLength(12)}")
         )
 

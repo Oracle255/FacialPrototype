@@ -2,6 +2,7 @@ package com.capstone.prettyU.BackEnd.Utilities
 
 import android.content.ContentValues
 import android.content.Context
+import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Canvas
@@ -13,6 +14,7 @@ import android.provider.MediaStore
 import android.util.Log
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
+import androidx.appcompat.app.AlertDialog
 import androidx.core.content.FileProvider
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.DrawableCompat
@@ -104,6 +106,28 @@ class Utils {
             "${BuildConfig.APPLICATION_ID}.fileprovider",
             imageFile
         )
+    }
+
+    fun intentDialogBuilder(
+        context: Context,
+        title: String,
+        message: String,
+        moveToNextIntent: Boolean,
+        nextIntentClass: Class<*>
+    ) {
+        val builder = AlertDialog.Builder(context)
+        builder.setTitle(title)
+        builder.setMessage(message)
+
+        builder.setPositiveButton("OK") { dialog, _ ->
+            if (moveToNextIntent) {
+                context.startActivity(Intent(context, nextIntentClass))
+            } else {
+                dialog.dismiss()
+            }
+        }
+        val dialog = builder.create()
+        dialog.show()
     }
 
 }

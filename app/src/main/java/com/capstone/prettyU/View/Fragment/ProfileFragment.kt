@@ -9,6 +9,8 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.capstone.prettyU.R
+import com.capstone.prettyU.databinding.FragmentMainPageBinding
+import com.capstone.prettyU.databinding.FragmentProfileBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -22,6 +24,9 @@ private const val ARG_PARAM2 = "param2"
  */
 class ProfileFragment : Fragment() {
     // TODO: Rename and change types of parameters
+    private var _binding: FragmentProfileBinding? = null
+    private val binding get() = _binding!!
+
     private var param1: String? = null
     private var param2: String? = null
 
@@ -31,14 +36,28 @@ class ProfileFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        _binding = FragmentProfileBinding.inflate(layoutInflater, container, false)
+        val view = binding.root
+        binding.llhProfileName.setOnClickListener {
+            editDialog()
+        }
+        binding.llhProfileUsername.setOnClickListener {
+            editDialog()
+        }
+        binding.llhProfileEmail.setOnClickListener {
+            editDialog()
+        }
+        binding.llhProfileBio.setOnClickListener {
+            editDialog()
+        }
+        return view
     }
 
     companion object {

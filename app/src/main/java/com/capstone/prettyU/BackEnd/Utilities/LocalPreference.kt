@@ -3,7 +3,7 @@ package com.capstone.prettyU.BackEnd.Utilities
 import android.content.Context
 import android.content.SharedPreferences
 
-class SharedPreference(context: Context) {
+class LocalPreference(context: Context) {
     companion object {
         const val PREF_KEY = "SETTING"
         const val TOKEN = "PREF_TOKEN"

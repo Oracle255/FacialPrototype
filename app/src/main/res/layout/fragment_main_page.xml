@@ -36,14 +36,21 @@
                 android:layout_marginTop="5dp"
                 android:text="Username"
                 android:textAlignment="center" />
+
         </LinearLayout>
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/primary" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvItem"
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:fadingEdge="horizontal"
             android:layoutDirection="inherit">
