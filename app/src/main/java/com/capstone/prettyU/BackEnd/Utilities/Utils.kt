@@ -130,25 +130,21 @@ class Utils {
         var title = "KOSONG"
         var desc1 = "KOSONG"
         var desc2 = "KOSONG"
-        //val universities = arrayListOf<String>(*)
 
         fun content1 () {
             title =  resources.getStringArray(R.array.article_dry_1)[0]
             desc1 =  resources.getStringArray(R.array.article_dry_1)[1]
             desc2 =  resources.getStringArray(R.array.article_dry_1)[2]
-            //title =
         }
         fun content2 () {
             title =  resources.getStringArray(R.array.article_dry_2)[0]
             desc1 =  resources.getStringArray(R.array.article_dry_2)[1]
             desc2 =  resources.getStringArray(R.array.article_dry_2)[2]
-            //title =
         }
         fun content3 () {
             title =  resources.getStringArray(R.array.article_dry_3)[0]
             desc1 =  resources.getStringArray(R.array.article_dry_3)[1]
             desc2 =  resources.getStringArray(R.array.article_dry_3)[2]
-            //title =
         }
 
         fun outOfBound() {
@@ -159,8 +155,8 @@ class Utils {
 
         when (reqCode) {
             "1" -> content1()
-            "2" -> content1()
-            "3" -> content1()
+            "2" -> content2()
+            "3" -> content3()
             else -> {
                 outOfBound()
             }

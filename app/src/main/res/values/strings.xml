@@ -38,10 +38,10 @@
     <string name="Notification">Notification</string>
     <string name="Theme">Theme</string>
     <string name="delete">Delete Account</string>
-    
+
     //Notification
     <string name="send_notif">Send Notif</string>
-    <string name="notification_message">Udah minum berapa liter hari ini? Stay hydrated everyone\Yuk penuhi nutrisi untuk kulit lewat realfood\Jangan lupa pakai sunscreen ya</string>
+    <string name="notification_message">Udah minum berapa liter hari ini? Stay hydrated everyone Yuk penuhi nutrisi untuk kulit lewat realfood\Jangan lupa pakai sunscreen ya</string>
     <string name="notification_subtext">Reminder</string>
     <string name="open_tips">Open Tips</string>
     <string name="title">Title</string>
@@ -49,13 +49,30 @@
 
 
     //ARTICLE
-        //dry
+    //dry
     <string-array name="article_dry_1">
         <item>
-            title1
+            Penanganan Kulit Kering - Rutinitas yang Menenangkan
         </item>
         <item>
-            content1
+            Kulit kering bisa menjadi gangguan, membuat Anda merasa gatal dan bersisik.
+            Tapi jangan khawatir!
+            Berikut 3 langkah rutin sederhana untuk mengembalikan kilau alami kulit Anda:
+            Kelembapan adalah Kuncinya:
+            Setelah dibersihkan dengan air hangat dan pembersih lembut bebas pewangi,
+            tepuk-tepuk kulit hingga kering dan segera gunakan pelembab.
+            Lotion bagus untuk siang hari, sedangkan krim dan salep memberikan hidrasi lebih dalam,
+            cocok untuk malam hari. Carilah bahan-bahan seperti asam hialuronat, ceramide,
+            atau shea butter untuk meningkatkan kelembapan ekstra.
+            Kekuatan Mandi: Mandi air panas mungkin terasa menyenangkan,
+            tetapi dapat menghilangkan minyak alami. Pilihlah mandi air hangat,
+            dan jaga agar tetap singkat dan manis.
+            Setelah mandi, hindari mengeringkan kulit secara kasar.
+            Tepuk-tepuk perlahan menggunakan handuk lembut dan oleskan pelembap saat kulit masih
+            lembap untuk mengunci hidrasi.Hidrasi dari Dalam: Minum banyak air sepanjang hari
+            sangat penting untuk kesehatan kulit secara keseluruhan. Usahakan minum delapan gelas
+            setiap hari untuk menjaga kulit Anda tetap montok dan terhidrasi dari dalam ke luar.
+
         </item>
         <item>
             content1-1
