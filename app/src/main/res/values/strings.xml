@@ -52,35 +52,82 @@
         //dry
     <string-array name="article_dry_1">
         <item>
-            title1
+           Cara Penanganan Kulit Kering
         </item>
         <item>
-            content1
+            Kulit Kering, Suatu kondisi umum yang menyerang orang-orang dari segala usia, dapat menjadi sumber rasa frustrasi dan ketidaknyamanan.\n
+            Penyakit ini muncul sebagai bercak kasar, bersisik, dan gatal yang dapat muncul di bagian tubuh mana saja,\n
+            namun paling umum terjadi di tangan, lengan, kaki, dan wajah. Meskipun kulit kering biasanya tidak serius,\n
+            keinginan untuk menggaruk secara terus-menerus dapat menyebabkan iritasi dan bahkan infeksi.\n
+            Beberapa faktor berkontribusi terhadap kulit kering. Salah satu penyebab paling umum adalah melemahnya pelindung kulit.\n
+            Lapisan terluar kulit kita, stratum korneum, bertindak sebagai pelindung, mengunci kelembapan dan mencegah masuknya bahan iritan.\n
+            Ketika penghalang ini rusak, ia kehilangan kemampuannya untuk mempertahankan kelembapan, sehingga menyebabkan kekeringan.\n
+
+            Berikut beberapa alasan mengapa pelindung kulit Anda mungkin melemah:\n \n
+
+            Iklim:\n \n
+            Musim dingin yang dingin dan kering serta musim panas yang panas dan lembap dapat berdampak buruk pada hidrasi kulit.\n
+            Mandi dan berendam air panas: Air panas menghilangkan minyak alami yang membantu menjaga kulit tetap kenyal.\n
+            Sabun dan pembersih yang keras: Produk yang mengandung alkohol, sulfat, atau pewangi yang kuat dapat mengiritasi dan mengeringkan kulit.\n
+            
+            Paparan sinar matahari\n \n
+            Sinar UV merusak sel-sel kulit dan memecah kolagen, menyebabkan kekeringan dan kerutan.\n
+            Kondisi medis yang mendasari: Kondisi medis tertentu seperti eksim, psoriasis, dan diabetes juga dapat menyebabkan kulit kering.\n
+            Usia: Seiring bertambahnya usia, kulit kita secara alami memproduksi lebih sedikit minyak, sehingga lebih rentan terhadap kekeringan.\n
         </item>
         <item>
-            content1-1
+           Kabar baiknya, ada sejumlah cara efektif untuk mengatasi kulit kering dan mengembalikan kenyamanannya.\n
+            Berikut adalah beberapa strategi utama untuk dimasukkan ke dalam rutinitas harian Anda\n
         </item>
     </string-array>
     <string-array name="article_dry_2">
         <item>
-            title2
+            kekeringan
         </item>
         <item>
-            content2
+            <html>
+                <body>
+				<p>
+				Kulit kering adalah kondisi tidak nyaman yang ditandai dengan kerak, gatal, dan pecah-pecah. Kondisi ini dapat terjadi karena berbagai alasan. Beberapa orang memiliki kulit kering.
+				</p> \n\n
+				<p>
+				Kulit kering terlihat kusam karena sering tertutup lapisan sel kulit mati. Juga, seiring bertambahnya usia, kulit secara alami menjadi kering karena perubahan hormon. Perawatan kulit kering pastinya berbeda dengan tipe kulit lainya.\n
+				Jika Anda mengalami kulit kering, Anda mungkin dapat mencegah dan mengobatinya menggunakan perubahan gaya hidup sederhana. Salah satunya adalah dengan memperhatikan produk skincare. Mulai dari pembersih, krim, pencuci muka, hingga makeup.\n
+				Setiap jenis kulit memiliki perawatannya sendiri. Begitu juga dengan kulit kering yang sangat sensitif terhadap beberapa bahan kecantikan umum. Penting untuk membaca label sebelum Anda membeli produk skincare untuk kulit kering. Berikut bahan skincare yang tak cocok untuk kulit kering.\n
+				</p>\n\n
+
+                 <p>
+                     <b>Salicylic Acid</b> \n \n
+                     Salicylic acid atau asam salisilat memiliki asal yang relatif alami, karena pernah berasal dari metabolisme salacin, sering ditemukan di kulit pohon willow. \n
+                    Seperti salacin, asam salisilat adalah zat anti-inflamasi dengan kemiripan kimiawi dengan aspirin.\n
+                    Asam salisiklik mengeksfoliasi dan mengangkat sel-sel mati dari dalam pori-pori dan permukaan kulit. \n
+                    Karena memiliki sifat pengelupasan, Salicylic acid berpotensi mengeringkan kulit.\n
+                    Bahan ini memang bagus untuk menyembuhkan jerawat karena dikenal dapat mengeringkan jerawat dan mengangkat minyak berlebih. Tapi, bahan ini terlalu keras pada kulit kering dan dapat dengan mudah mengiritasi dan menyebabkan kemerahan dan peradangan.\n
+                 </p>
+                    <p>
+                        <b>Alkohol</b>\n \n
+                     Alkohol seperti etanol, alkohol isopropil, alkohol denat, dan metanol digunakan untuk membuat krim terasa lebih ringan, membantu bahan-bahan lain untuk menembus kulit dan sebagai pengawet.\n
+                    Alkohol ini dapat menyebabkan kekeringan, iritasi, dan jerawat.\n
+                    Semua bentuk alkohol yang ditemukan dalam produk-produk seperti toner dan beberapa pembersih akan mengeringkan hidrasi dari kulit.\n
+                    Efek ini dapat membuat kulit bersisik dan mengelupas. Kerusakan akibat alkohol dapat menyebabkan peningkatan benjolan dan pori-pori membesar.\n
+                 </p>
+
+                </body>
+            </html>
         </item>
         <item>
-            content2-1
+		
         </item>
     </string-array>
     <string-array name="article_dry_3">
         <item>
-            title3
+           
         </item>
         <item>
-            content3-1
+          
         </item>
         <item>
-            content3-2
+            
         </item>
 
     </string-array>

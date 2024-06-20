@@ -159,8 +159,8 @@ class Utils {
 
         when (reqCode) {
             "1" -> content1()
-            "2" -> content1()
-            "3" -> content1()
+            "2" -> content2()
+            "3" -> content3()
             else -> {
                 outOfBound()
             }
