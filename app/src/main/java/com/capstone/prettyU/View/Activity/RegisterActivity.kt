@@ -3,19 +3,121 @@ package com.capstone.prettyU.View.Activity
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
 import com.capstone.prettyU.BackEnd.Utilities.Constant.AnimationConstant
+import com.capstone.prettyU.BackEnd.Utilities.LocalPreference
+import com.capstone.prettyU.View.ViewModel.RegisterViewModel
+import com.capstone.prettyU.View.ViewModel.ViewModelFactory
 import com.capstone.prettyU.databinding.ActivityRegisterBinding
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegisterBinding
+    private lateinit var viewModel: RegisterViewModel
+    private lateinit var localPref: LocalPreference
+    private val scope = CoroutineScope(Dispatchers.IO)
+
+    private var edtContentUserName = ""
+    private var edtContentEmail = ""
+    private var edtContentPassword = ""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
+        localPref = LocalPreference(this)
+        viewModel =
+            ViewModelProvider(this, ViewModelFactory(localPref))[RegisterViewModel::class.java]
+
         setContentView(binding.root)
         playAnimation()
 
+        scope.launch {
+            edtListener()
+            binding.btnSignIn.setOnClickListener{
+                observeViewModel()
+                val username = edtContentUserName
+                val email = edtContentEmail
+                val password = edtContentPassword
+                viewModel.register(email, username, password)
+            }
+        }
+
+    }
+
+    private fun observeViewModel() {
+        val resultObserver = {result: String ->
+            Toast.makeText(this, "SUCCESS", Toast.LENGTH_SHORT).show()
+//            if (result) {
+//
+//            }
+            //viewModel.registerResult.removeObserver(this)
+        }
+        val errorMessageObserver = {message: String? ->
+            Toast.makeText(this, "GAGAL", Toast.LENGTH_SHORT)
+            viewModel.clearErrorMessage()
+            //viewModel.errorMessage.removeObserver(this)
+        }
+        viewModel.registerResult.observe(this, resultObserver)
+        viewModel.errorMessage.observe(this, errorMessageObserver)
+
+    }
+
+    private fun updateUi() {
+
+    }
+
+    private fun edtListener() {
+        binding.edRegisterEmail.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+                edtContentEmail = "$s"
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                edtContentEmail = "$s"
+            }
+
+            override fun afterTextChanged(s: Editable?) {
+                edtContentEmail = "$s"
+            }
+
+        })
+
+        binding.edRegisterUsername.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+                edtContentUserName = "$s"
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                edtContentUserName = "$s"
+            }
+
+            override fun afterTextChanged(s: Editable?) {
+                edtContentUserName = "$s"
+            }
+
+        })
+
+        binding.edRegisterPassword.addTextChangedListener(object : TextWatcher{
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+                edtContentPassword = "$s"
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                edtContentPassword = "$s"
+            }
+
+            override fun afterTextChanged(s: Editable?) {
+                edtContentPassword = "$s"
+            }
+
+        })
     }
 
     // TODO: set animasi (mostly) done

@@ -11,35 +11,20 @@ import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
 
-class LoginViewModel(private val localPreference: LocalPreference): ViewModel() {
-
-    private val _errorState = MutableLiveData<Boolean>()
-    val errorState: LiveData<Boolean> = _errorState
-
-    private val _loginResult = MutableLiveData<String>()
-    val loginResult: LiveData<String> = _loginResult
+class RegisterViewModel(private val localPreference: LocalPreference): ViewModel() {
+    private val _registerResult = MutableLiveData<String>()
+    val registerResult: LiveData<String> = _registerResult
 
     private val _errorMessage = MutableLiveData<String?>()
     val errorMessage: MutableLiveData<String?> = _errorMessage
 
-    fun login(username: String, password: String) {
+    fun register(email: String, username: String, password: String) {
         viewModelScope.launch {
             try {
                 val apiService = ApiConfig.getApiService()
-                val response = apiService.login(username, password)
+                val response = apiService.register(email, username, password)
                 val message = response.message
-                val state = response.error
-                response.loginResult?.token?.let {
-                    localPreference.addToken(it)
-                }
-                response.loginResult?.email?.let {
-                    localPreference.addName(it)
-                }
-                response.loginResult?.userId?.let {
-                    localPreference.addEmail(it)
-                }
-                _loginResult.postValue(message!!)
-
+                _registerResult.postValue(message!!)
             } catch (e: HttpException) {
                 val errorBody = e.response()?.errorBody()?.string()
                 val errorResponse = Gson().fromJson(errorBody, MessageResponse::class.java)

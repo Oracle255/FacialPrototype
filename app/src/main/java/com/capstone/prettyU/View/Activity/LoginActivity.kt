@@ -49,7 +49,25 @@ class LoginActivity : AppCompatActivity() {
 //    }
 
     private fun observeViewModel() {
+        val errorStateObserver = {state: Boolean ->
+            if (state) {
+                //Toast.makeText(this, "Success", Toast.LENGTH_SHORT)
+                Utils().intentDialogBuilder(
+                    this@LoginActivity,
+                    "SUCCESS",
+                    "",
+                    true,
+                    MainActivity::class.java
+                )
+            } else {
+                Toast.makeText(this, "ERROR", Toast.LENGTH_SHORT)
+            }
+            viewModel.errorState.removeObservers(this)
+        }
+
         val loginResultObserver = { result: String ->
+
+            // LOGIC CHECK MASIH SEMPRAWUT
             if (result == "success") {
                 //loadBar(false)
                 Utils().intentDialogBuilder(
@@ -75,7 +93,8 @@ class LoginActivity : AppCompatActivity() {
             //viewModel.errorMessage.removeObserver(this)
         }
 
-        viewModel.loginResult.observe(this, loginResultObserver)
+        //viewModel.loginResult.observe(this, loginResultObserver)
+        viewModel.errorState.observe(this, errorStateObserver)
         viewModel.errorMessage.observe(this, errorMEssageObserver)
     }
 

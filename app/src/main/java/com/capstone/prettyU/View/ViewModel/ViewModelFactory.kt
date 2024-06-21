@@ -10,6 +10,9 @@ class ViewModelFactory(private val setting: LocalPreference) :
         if (modelClass.isAssignableFrom(LoginViewModel::class.java)) {
             return LoginViewModel(setting) as T
         }
+        if (modelClass.isAssignableFrom(RegisterViewModel::class.java)) {
+            return RegisterViewModel(setting) as T
+        }
 //        if(modelClass.isAssignableFrom(RegisterViewModel::class.java)) {
 //            return RegisterViewModel(setting) as T
 //        }

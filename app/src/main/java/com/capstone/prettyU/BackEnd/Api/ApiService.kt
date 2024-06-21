@@ -2,6 +2,7 @@ package com.capstone.prettyU.BackEnd.Api
 
 import android.provider.ContactsContract.CommonDataKinds.Email
 import com.capstone.prettyU.BackEnd.Api.Response.LoginResponse
+import com.capstone.prettyU.BackEnd.Api.Response.MessageResponse
 import com.capstone.prettyU.BackEnd.Api.Response.PredictResponse
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
@@ -28,6 +29,14 @@ interface ApiService {
         @Field("username") username: String,
         @Field("password") password: String
     ): LoginResponse
+
+    @FormUrlEncoded
+    @POST("register")
+    suspend fun register(
+        @Field("email") email: String,
+        @Field("username") username: String,
+        @Field("password") password: String
+    ): MessageResponse
 
 
 }
