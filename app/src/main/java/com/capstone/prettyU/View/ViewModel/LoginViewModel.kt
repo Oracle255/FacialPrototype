@@ -29,8 +29,11 @@ class LoginViewModel(private val localPreference: LocalPreference): ViewModel() 
                 response.loginResult?.token?.let {
                     localPreference.addToken(it)
                 }
-                response.loginResult?.username?.let {
+                response.loginResult?.email?.let {
                     localPreference.addName(it)
+                }
+                response.loginResult?.userId?.let {
+                    localPreference.addEmail(it)
                 }
                 _loginResult.postValue(message!!)
 //                if (!state!!) {

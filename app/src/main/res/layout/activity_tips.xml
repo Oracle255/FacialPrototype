@@ -24,11 +24,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/bandung"
+            android:textSize="45sp"
             android:text="Title"
-            android:textAlignment="center"
-            android:textColor="@color/accentDark"
-            android:textSize="30sp" />
+            android:textAlignment="center" />
 
         <View
             android:id="@+id/divtips"
@@ -54,9 +53,8 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="5dp"
-                    android:fontFamily="sans-serif"
-                    android:text="content"
-                    android:textColor="@color/accentDark" />
+                    android:fontFamily="@font/bandung"
+                    android:text="content" />
 
                 <TextView
                     android:id="@+id/tv_content2"
@@ -65,9 +63,8 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="5dp"
-                    android:fontFamily="sans-serif"
-                    android:text="content"
-                    android:textColor="@color/accentDark" />
+                    android:fontFamily="@font/bandung"
+                    android:text="content" />
             </LinearLayout>
         </ScrollView>
 
