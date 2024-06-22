@@ -109,7 +109,6 @@
                 <LinearLayout
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="25dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -132,36 +131,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Oily Skin"
-                        android:textAlignment="center" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="25dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/lbSkinDisease"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Skin Disease"
-                        android:textAlignment="center"
-                        android:textStyle="bold|italic" />
-
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_placeholder" />
-
-                    <TextView
-                        android:id="@+id/tvAnalysisSkinDisease"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Normal"
                         android:textAlignment="center" />
 
                 </LinearLayout>

@@ -52,6 +52,13 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun observeViewModel() {
+        val errorObserver = {state: Boolean ->
+            if (state) {
+                // TODO(Pindah ke activity Login jika sukses)
+                Toast.makeText(this,"Success", Toast.LENGTH_SHORT)
+            }
+        }
+
         val resultObserver = {result: String ->
             Toast.makeText(this, "SUCCESS", Toast.LENGTH_SHORT).show()
 //            if (result) {

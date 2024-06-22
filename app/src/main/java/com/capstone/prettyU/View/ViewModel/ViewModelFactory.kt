@@ -13,6 +13,9 @@ class ViewModelFactory(private val setting: LocalPreference) :
         if (modelClass.isAssignableFrom(RegisterViewModel::class.java)) {
             return RegisterViewModel(setting) as T
         }
+        if (modelClass.isAssignableFrom(FaceScanViewModel::class.java)) {
+            return FaceScanViewModel(setting) as T
+        }
 //        if(modelClass.isAssignableFrom(RegisterViewModel::class.java)) {
 //            return RegisterViewModel(setting) as T
 //        }

@@ -12,6 +12,10 @@ import kotlinx.coroutines.launch
 import retrofit2.HttpException
 
 class RegisterViewModel(private val localPreference: LocalPreference): ViewModel() {
+
+    private val _errorState = MutableLiveData<Boolean>()
+    val errorState: LiveData<Boolean> = _errorState
+
     private val _registerResult = MutableLiveData<String>()
     val registerResult: LiveData<String> = _registerResult
 

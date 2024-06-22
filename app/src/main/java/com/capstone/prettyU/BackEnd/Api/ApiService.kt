@@ -17,6 +17,7 @@ import retrofit2.http.Query
 
 interface ApiService {
 
+
     @Multipart
     @POST("predict")
     suspend fun predict(
