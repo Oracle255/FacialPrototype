@@ -7,6 +7,6 @@ data class PredictResponse(
     val status: String,
     @field:SerializedName("message")
     val message: String,
-    @field:SerializedName("listPredict")
-    val listPredict: List<PredictItemResponse>
+    @field:SerializedName("data")
+    val data: PredictItemResponse? = null
 )

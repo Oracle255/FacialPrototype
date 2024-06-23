@@ -171,6 +171,7 @@ class FaceScanFragment : Fragment() {
             if (message != null) {
 //                simpleDialogBuilder(this@LoginActivity, "Error", message)
 //                loadBar(false)
+                Toast.makeText(requireActivity().applicationContext, message, Toast.LENGTH_SHORT).show()
                 viewModel.clearErrorMessage() // bugfix pesan error tidak update
                 viewModel.errorMessage.removeObservers(this)
             }
@@ -183,6 +184,7 @@ class FaceScanFragment : Fragment() {
             //viewModel.registerResult.removeObserver(this)
         }
         viewModel.predictResult.observe(viewLifecycleOwner, resultObserver)
+        viewModel.errorMessage.observe(viewLifecycleOwner, errorMessageObserver)
         //Toast.makeText()
     }
 

@@ -130,7 +130,7 @@
                         android:id="@+id/tvAnalysisSkinType"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Oily Skin"
+                        android:text="-"
                         android:textAlignment="center" />
 
                 </LinearLayout>

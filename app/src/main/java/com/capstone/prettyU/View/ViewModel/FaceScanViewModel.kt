@@ -6,7 +6,6 @@ import android.graphics.BitmapFactory
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.bumptech.glide.load.HttpException
 import com.capstone.prettyU.BackEnd.Api.Response.MessageResponse
 import com.capstone.prettyU.BackEnd.Utilities.LocalPreference
 import com.capstone.prettyU.BackEnd.Utilities.Utils
@@ -15,7 +14,6 @@ import kotlinx.coroutines.launch
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
-import okhttp3.RequestBody.Companion.toRequestBody
 import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.LiveData
@@ -48,14 +46,14 @@ class FaceScanViewModel(localPreference: LocalPreference): ViewModel() {
             viewModelScope.launch{
                 try {
                     val apiService = ApiConfig.getApiService()
-                    val successResponse =
+                    val response =
                         apiService.predict(multipartBody)
-                    val listResponse = successResponse.listPredict
+                    val listResponse = response.data
                     //val message = successResponse.message
-                    val status = successResponse.status
-                    Toast.makeText(context,successResponse.message,Toast.LENGTH_SHORT)
+                    val status = response.status
+                    Toast.makeText(context,response.message,Toast.LENGTH_SHORT)
 
-                    _predictResult.postValue(successResponse.toString())
+                    _predictResult.postValue(response.toString())
                     //_predictResult.postValue(successResponse.listPredict.toString())
 
 
