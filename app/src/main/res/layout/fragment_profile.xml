@@ -285,7 +285,7 @@
                 android:textStyle="bold|italic" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/iv_skin_preview"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"

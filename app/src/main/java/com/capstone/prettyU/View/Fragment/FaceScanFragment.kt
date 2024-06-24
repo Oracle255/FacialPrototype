@@ -6,40 +6,27 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.annotation.UiThread
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
+import androidx.core.view.isVisible
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.bumptech.glide.Glide
 import com.capstone.prettyU.BackEnd.Utilities.LocalPreference
 import com.capstone.prettyU.BackEnd.Utilities.Utils
 import com.capstone.prettyU.R
 import com.capstone.prettyU.View.Activity.CameraActivity
 import com.capstone.prettyU.View.Activity.CameraActivity.Companion.CAMERAX_RESULT
 import com.capstone.prettyU.View.ViewModel.FaceScanViewModel
-import com.capstone.prettyU.View.ViewModel.RegisterViewModel
 import com.capstone.prettyU.View.ViewModel.ViewModelFactory
 import com.capstone.prettyU.databinding.FragmentFaceScanBinding
-import com.capstone.prettyU.databinding.FragmentMainPageBinding
-import com.yalantis.ucrop.UCrop
-import java.io.File
-import kotlin.random.Random
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [FaceScanFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class FaceScanFragment : Fragment() {
     private val util = Utils()
     private var _binding: FragmentFaceScanBinding? = null
@@ -47,10 +34,6 @@ class FaceScanFragment : Fragment() {
     private var currentImageUri: Uri? = null
     private lateinit var localPref: LocalPreference
     private lateinit var viewModel: FaceScanViewModel
-
-
-    private var param1: String? = null
-    private var param2: String? = null
 
     private fun allPermissionsGranted() =
         ContextCompat.checkSelfPermission(
@@ -74,18 +57,11 @@ class FaceScanFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         localPref = LocalPreference(requireContext())
-
-//        viewModel =
-//            ViewModelProvider(this)[FaceScanViewModel::class.java]
         viewModel =
             ViewModelProvider(this, ViewModelFactory(localPref))[FaceScanViewModel::class.java]
         if (!allPermissionsGranted()) {
             requestPermissionLauncher.launch(REQUIRED_PERMISSION)
         }
-//        arguments?.let {
-//            param1 = it.getString(ARG_PARAM1)
-//            param2 = it.getString(ARG_PARAM2)
-//        }
     }
 
     override fun onCreateView(
@@ -96,11 +72,11 @@ class FaceScanFragment : Fragment() {
         val view = binding.root
         binding.btnTakePicture.setOnClickListener {
             startCamera()
-            //startCameraX()
         }
         binding.btnScanImage.setOnClickListener {
             predict()
         }
+        binding.btnCropImage.isEnabled = false
 
         return view
     }
@@ -162,45 +138,79 @@ class FaceScanFragment : Fragment() {
         val imageFIle = currentImageUri
         viewModel.uploadImage(requireContext(), imageFIle)
         observeViewModel()
-        //binding.tvAnalysisSkinType.text = viewModel.predictResult.toString()
-        //viewModel.predictResult.observe(requireContext())
     }
 
     private fun observeViewModel() {
+        loadState(true)
+        val modelResultObserver = {result: String? ->
+            if (result != null) {
+                binding.tvAnalysisSkinType.text = result
+                if (result == "normal") {
+                    Glide.with(requireContext()).load(R.drawable.ic_skintype_normal).into(binding.ivSkinPreview)
+                }
+                else if (result == "oily") {
+                    Glide.with(requireContext()).load(R.drawable.ic_skintype_oily).into(binding.ivSkinPreview)
+                }
+                else if (result == "dry") {
+                    Glide.with(requireContext()).load(R.drawable.ic_skintype_dry).into(binding.ivSkinPreview)
+                }
+
+            }
+        }
+
+        val modelExplanationObserver = {message: String? ->
+            if (message != null) {
+
+            }
+        }
+
+        val modelSuggestionObserver = {message: String? ->
+            if (message != null) {
+                binding.tvAnalysisSuggestion.text = message
+            }
+        }
+
+        val modelConfidenceScoreObserver = {value: Double? ->
+            if (value != null) {
+                binding.tvAnalysisScore.text = "${value.toInt()}%"
+                loadState(false)
+            }
+        }
+
+        val createdAtObserver = {message: String? ->
+            if (message != null) {
+
+            }
+        }
+
+
         val errorMessageObserver = { message: String? ->
             if (message != null) {
-//                simpleDialogBuilder(this@LoginActivity, "Error", message)
-//                loadBar(false)
                 Toast.makeText(requireActivity().applicationContext, message, Toast.LENGTH_SHORT).show()
                 viewModel.clearErrorMessage() // bugfix pesan error tidak update
                 viewModel.errorMessage.removeObservers(this)
+                loadState(false)
             }
         }
 
         val resultObserver = {result: String ->
-            binding.tvAnalysisSkinType.text = result
             Toast.makeText(requireActivity().applicationContext, result, Toast.LENGTH_SHORT).show()
+        }
 
-            //viewModel.registerResult.removeObserver(this)
+        viewModel.listResul.observe(viewLifecycleOwner) {result ->
+            //binding.lbAnalysisResult.text = result.toString()
         }
         viewModel.predictResult.observe(viewLifecycleOwner, resultObserver)
         viewModel.errorMessage.observe(viewLifecycleOwner, errorMessageObserver)
-        //Toast.makeText()
+        viewModel.modelResult.observe(viewLifecycleOwner, modelResultObserver)
+        viewModel.modelExplanation.observe(viewLifecycleOwner, modelExplanationObserver)
+        viewModel.modelSuggestion.observe(viewLifecycleOwner, modelSuggestionObserver)
+        viewModel.modelConfidenceScore.observe(viewLifecycleOwner, modelConfidenceScoreObserver)
+        viewModel.createdAt.observe(viewLifecycleOwner, createdAtObserver) // STUB buat fungsi save history
     }
 
-    // TODO(konversi kode original activity ke fragment)
-//    private fun cropImage(aspectRatioX: Float, aspectRatioY: Float) {
-//        currentImageUri?.let { inputUri ->
-//            val cropName = Random.nextLong(0, 1000)
-//            val outputFileName = "IMG${cropName}.jpg"
-//            val outputUri = Uri.fromFile(File(cacheDir, outputFileName))
-//            UCrop.of(inputUri, outputUri)
-//                .withAspectRatio(aspectRatioX, aspectRatioY)
-//                .withOptions(UCrop.Options())
-//                .withMaxResultSize(1000, 1000)
-//                .start(this@MainActivity)
-//        }
-//    }
-
+    private fun loadState(state: Boolean) {
+        binding.progressBar.isVisible = state
+    }
 
 }

@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.capstone.prettyU.BackEnd.Utilities.Constant.AnimationConstant
 import com.capstone.prettyU.BackEnd.Utilities.LocalPreference
+import com.capstone.prettyU.BackEnd.Utilities.Utils
 import com.capstone.prettyU.View.ViewModel.RegisterViewModel
 import com.capstone.prettyU.View.ViewModel.ViewModelFactory
 import com.capstone.prettyU.databinding.ActivityRegisterBinding
@@ -54,8 +55,13 @@ class RegisterActivity : AppCompatActivity() {
     private fun observeViewModel() {
         val errorObserver = {state: Boolean ->
             if (state) {
-                // TODO(Pindah ke activity Login jika sukses)
-                Toast.makeText(this,"Success", Toast.LENGTH_SHORT)
+                Utils().intentDialogBuilder(
+                    this@RegisterActivity,
+                    "Register Process success",
+                    "",
+                    true,
+                    LoginActivity::class.java
+                )
             }
         }
 

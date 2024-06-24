@@ -20,6 +20,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.capstone.prettyU.BackEnd.Api.ApiConfig
+import com.capstone.prettyU.BackEnd.Api.Response.PredictItemResponse
+import com.capstone.prettyU.BackEnd.Api.Response.PredictResponse
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.FileOutputStream
@@ -27,8 +29,29 @@ import java.io.FileOutputStream
 class FaceScanViewModel(localPreference: LocalPreference): ViewModel() {
     private val utils = Utils()
 
+    private val _status = MutableLiveData<String>()
+    val status: LiveData<String> = _status
+
     private val _predictResult = MutableLiveData<String>()
     val predictResult: LiveData<String> = _predictResult
+
+    private val _listResult = MutableLiveData<PredictItemResponse?>()
+    val listResul: MutableLiveData<PredictItemResponse?> get() = _listResult
+
+    private val _modelResult = MutableLiveData<String?>()
+    val modelResult: MutableLiveData<String?> = _modelResult
+
+    private val _modelExplanation = MutableLiveData<String?>()
+    val modelExplanation: MutableLiveData<String?> = _modelExplanation
+
+    private val _modelSuggestion = MutableLiveData<String?>()
+    val modelSuggestion: MutableLiveData<String?> = _modelSuggestion
+
+    private val _modelConfidenceScore = MutableLiveData<Double?>()
+    val modelConfidenceScore: MutableLiveData<Double?> = _modelConfidenceScore
+
+    private val _createdAt = MutableLiveData<String?>()
+    val createdAt: MutableLiveData<String?> = _createdAt
 
     private val _errorMessage = MutableLiveData<String?>()
     val errorMessage: MutableLiveData<String?> = _errorMessage
@@ -50,9 +73,16 @@ class FaceScanViewModel(localPreference: LocalPreference): ViewModel() {
                         apiService.predict(multipartBody)
                     val listResponse = response.data
                     //val message = successResponse.message
-                    val status = response.status
                     Toast.makeText(context,response.message,Toast.LENGTH_SHORT)
-
+                    if (listResponse != null) {
+                        _listResult.postValue(listResponse)
+                        _modelResult.postValue(listResponse.modelResult)
+                        _modelExplanation.postValue(listResponse.modelExplanation)
+                        _modelSuggestion.postValue(listResponse.modelSuggestion)
+                        _modelConfidenceScore.postValue(listResponse.modelConfidenceScore)
+                        _createdAt.postValue(listResponse.createdAt)
+                        _status.postValue(response.status)
+                    }
                     _predictResult.postValue(response.toString())
                     //_predictResult.postValue(successResponse.listPredict.toString())
 
