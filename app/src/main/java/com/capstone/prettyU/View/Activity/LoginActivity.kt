@@ -8,6 +8,7 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.widget.Toast
+import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
 import com.capstone.prettyU.BackEnd.Utilities.Constant.AnimationConstant.AnimationProperty
 import com.capstone.prettyU.BackEnd.Utilities.LocalPreference
@@ -36,8 +37,8 @@ class LoginActivity : AppCompatActivity() {
             ViewModelProvider(this, ViewModelFactory(localPref))[LoginViewModel::class.java]
         setContentView(binding.root)
         playAnimation()
-        binding.tvNotif.text =
-            "name : ${localPref.fetchName()} \n\n token : ${localPref.fetchToken()}" // debug
+//        binding.tvNotif.text =
+//            "name : ${localPref.fetchName()} \n\n token : ${localPref.fetchToken()}" // debug
         scope.launch {
             edtListener()
             btnLifeCycle()
@@ -52,13 +53,13 @@ class LoginActivity : AppCompatActivity() {
         val errorStateObserver = {state: Boolean ->
             if (state) {
                 //Toast.makeText(this, "Success", Toast.LENGTH_SHORT)
-                Utils().intentDialogBuilder(
-                    this@LoginActivity,
-                    "SUCCESS",
-                    "",
-                    true,
-                    MainActivity::class.java
-                )
+//                Utils().intentDialogBuilder(
+//                    this@LoginActivity,
+//                    "Login berhasil",
+//                    "",
+//                    true,
+//                    MainActivity::class.java
+//                )
             } else {
                 Toast.makeText(this, "ERROR", Toast.LENGTH_SHORT)
             }
@@ -68,19 +69,18 @@ class LoginActivity : AppCompatActivity() {
         val loginResultObserver = { result: String ->
 
             // LOGIC CHECK MASIH SEMPRAWUT
-            if (result == "success") {
+            if (result == "Login berhasil") {
                 //loadBar(false)
+                loadState(false)
                 Utils().intentDialogBuilder(
                     this@LoginActivity,
-                    "SUCCESS",
-                    "",
+                    "Successfully Login with",
+                    "@${localPref.fetchName()} account",
                     true,
                     MainActivity::class.java
                 )
             } else {
                 Toast.makeText(this, "GAGAL MANING", Toast.LENGTH_SHORT).show()
-                //loadBar(false)
-                //Utils().simpleDialogBuilder(this@LoginActivity, "GAGAL", result)
             }
             viewModel.loginResult.removeObservers(this)
         }
@@ -93,13 +93,14 @@ class LoginActivity : AppCompatActivity() {
             //viewModel.errorMessage.removeObserver(this)
         }
 
-        //viewModel.loginResult.observe(this, loginResultObserver)
+        viewModel.loginResult.observe(this, loginResultObserver)
         viewModel.errorState.observe(this, errorStateObserver)
         viewModel.errorMessage.observe(this, errorMEssageObserver)
     }
 
     private fun btnLifeCycle() {
         binding.btnSignIn.setOnClickListener {
+            loadState(true)
             observeViewModel()
             val username = edContentUsername
             val password = edContentPassword
@@ -191,5 +192,9 @@ class LoginActivity : AppCompatActivity() {
             playSequentially(tvNotif, pairAll)
             start()
         }
+    }
+
+    private fun loadState(state: Boolean) {
+        binding.progressBar2.isVisible = state
     }
 }

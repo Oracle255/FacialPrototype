@@ -8,6 +8,7 @@
     tools:context=".View.Activity.LoginActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -25,8 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:scaleY="3"
                 android:scaleX="3"
+                android:scaleY="3"
                 android:src="@drawable/ic_logo_huruf" />
         </FrameLayout>
 
@@ -42,9 +43,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="72dp"
+                android:fontFamily="@font/morina"
                 android:text="@string/login_notifikasi"
                 android:textAlignment="center"
-                android:fontFamily="@font/morina"
                 android:textColor="@color/textDark"
                 android:textColorHint="@color/textDark"
                 android:textStyle="bold" />
@@ -64,10 +65,10 @@
                     android:id="@+id/ed_login_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:ems="10"
                     android:hint="@string/register_email"
                     android:inputType="textWebEmailAddress"
-                    android:layout_marginStart="5dp"
                     android:textColor="@color/textDark"
                     android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -87,11 +88,11 @@
                     android:id="@+id/ed_login_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/login_password"
                     android:inputType="text"
-                    android:layout_marginStart="5dp"
                     android:textColor="@color/textDark"
                     android:textColorHint="@color/textDark" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -104,7 +105,20 @@
                 android:layout_marginTop="20dp"
                 android:text="@string/text_btn_login" />
         </LinearLayout>
+
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="350dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
