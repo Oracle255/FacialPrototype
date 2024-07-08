@@ -41,7 +41,10 @@
     
     //Notification
     <string name="send_notif">Send Notif</string>
-    <string name="notification_message">Udah minum berapa liter hari ini? Stay hydrated everyone\Yuk penuhi nutrisi untuk kulit lewat realfood\Jangan lupa pakai sunscreen ya</string>
+    <string name="notification_message">Udah minum berapa liter hari ini? \n
+        Stay hydrated everyone\n
+        Yuk penuhi nutrisi untuk kulit lewat realfood\n
+        Jangan lupa pakai sunscreen ya</string>
     <string name="notification_subtext">Reminder</string>
     <string name="open_tips">Open Tips</string>
     <string name="title">Title</string>
@@ -82,53 +85,680 @@
     </string-array>
     <string-array name="article_dry_2">
         <item>
-            kekeringan
+            6 Bahan Skincare yang Perlu Dihindari Pemilik Kulit Kering
+        </item>
+
+        <item>
+            Kulit kering adalah kondisi tidak nyaman yang ditandai dengan kerak, gatal, dan pecah-pecah.\n
+            Kondisi ini dapat terjadi karena berbagai alasan. Beberapa orang memiliki kulit kering.\n
+
+            Kulit kering terlihat kusam karena sering tertutup lapisan sel kulit mati.\n
+            Juga, seiring bertambahnya usia, kulit secara alami menjadi kering karena perubahan hormon. \n
+            Perawatan kulit kering pastinya berbeda dengan tipe kulit lainya.\n
+            Jika Anda mengalami kulit kering, Anda mungkin dapat mencegah dan mengobatinya menggunakan perubahan gaya hidup sederhana. \n
+            Salah satunya adalah dengan memperhatikan produk skincare. Mulai dari pembersih, krim, pencuci muka, hingga makeup.\n
+            Setiap jenis kulit memiliki perawatannya sendiri. \n
+            Begitu juga dengan kulit kering yang sangat sensitif terhadap beberapa bahan kecantikan umum. \n
+            Penting untuk membaca label sebelum Anda membeli produk skincare untuk kulit kering. \n
+            Berikut bahan skincare yang tak cocok untuk kulit kering.\n\n
+
+            Salicylic Acid\n\n
+            Salicylic acid atau asam salisilat memiliki asal yang relatif alami, karena pernah berasal dari metabolisme salacin, sering ditemukan di kulit pohon willow. \n
+            Seperti salacin, asam salisilat adalah zat anti-inflamasi dengan kemiripan kimiawi dengan aspirin.\n
+            Asam salisiklik mengeksfoliasi dan mengangkat sel-sel mati dari dalam pori-pori dan permukaan kulit. \n
+            Karena memiliki sifat pengelupasan, Salicylic acid berpotensi mengeringkan kulit.\n
+            Bahan ini memang bagus untuk menyembuhkan jerawat karena dikenal dapat mengeringkan jerawat dan mengangkat minyak berlebih. \n
+            Tapi, bahan ini terlalu keras pada kulit kering dan dapat dengan mudah mengiritasi dan menyebabkan kemerahan dan peradangan.\n\n
+
+            Alkohol\n\n
+            Alkohol seperti etanol, alkohol isopropil, alkohol denat, dan metanol digunakan untuk membuat krim terasa lebih ringan, membantu bahan-bahan lain untuk menembus kulit dan sebagai pengawet. \n
+            Alkohol ini dapat menyebabkan kekeringan, iritasi, dan jerawat.\n
+            Semua bentuk alkohol yang ditemukan dalam produk-produk seperti toner dan beberapa pembersih akan mengeringkan hidrasi dari kulit. \n
+            Efek ini dapat membuat kulit bersisik dan mengelupas.\n
+            Kerusakan akibat alkohol dapat menyebabkan peningkatan benjolan dan pori-pori membesar.\n\n
+
+            Sodium dan Ammonium Lauryl Sulfate\n\n
+            Meskipun sodium lauryl sulphate (SLS) dan ammonium lauryl sulphate (ALS) memiliki nama yang mirip dan keduanya digolongkan sebagai surfaktan anionik, mereka memiliki struktur molekul yang berbeda. \n
+            SLS adalah molekul yang relatif sederhana dan oleh karena itu ukurannya cukup kecil.\n
+            Keduanya merupakan bahan yang membuat produk berbusa dan Sodium Lauryl Sulfate adalah yang paling umum digunakan. \n
+            SLS dikenal dapat mengiritasi kulit. Sulfat ini dapat menghilangkan minyak alami yang dapat menyebabkan kulit kering, iritasi dan reaksi. \n
+            Reaksi kulit yang meradang dapat termasuk kulit gatal, eksim dan dermatitis.\n\n
+
+            Benzoil Peroksida\n\n
+            Benzoil peroksida adalah bahan yang terkenal untuk memerangi jerawat. Bahan ini tersedia dalam bentuk gel, pembersih, dan perawatan spot jerawat. \n
+            Benzoil peroksida bekerja dengan cara mengupas kulit untuk menyingkirkan sel kulit mati, minyak berlebih, dan bakteri yang mungkin terperangkap di bawahnya.\n
+            Efek seperti ini dapat menyebabkan kekeringan, kemerahan dan pengelupasan yang berlebihan. \n
+            Anda mungkin merasakan gatal dan iritasi umum saat mengaplikasikannya.\n
+            Dokter kulit mungkin tidak merekomendasikan benzoil peroksida jika memiliki kulit sensitif, karena jenis kulit ini lebih rentan terhadap efek samping seperti ruam dan iritasi.\n
+            Benzoil peroksida juga mungkin bukan pilihan terbaik bagi orang menderita eksim atau dermatitis seboroik. \n
+            Bicaralah dengan dokter kulit tentang efek samping dan tindakan pencegahan saat menggunakan benzoil peroksida untuk jerawat.\n
+
         </item>
         <item>
-            <html>
-                <body>
-				<p>
-				Kulit kering adalah kondisi tidak nyaman yang ditandai dengan kerak, gatal, dan pecah-pecah. Kondisi ini dapat terjadi karena berbagai alasan. Beberapa orang memiliki kulit kering.
-				</p> \n\n
-				<p>
-				Kulit kering terlihat kusam karena sering tertutup lapisan sel kulit mati. Juga, seiring bertambahnya usia, kulit secara alami menjadi kering karena perubahan hormon. Perawatan kulit kering pastinya berbeda dengan tipe kulit lainya.\n
-				Jika Anda mengalami kulit kering, Anda mungkin dapat mencegah dan mengobatinya menggunakan perubahan gaya hidup sederhana. Salah satunya adalah dengan memperhatikan produk skincare. Mulai dari pembersih, krim, pencuci muka, hingga makeup.\n
-				Setiap jenis kulit memiliki perawatannya sendiri. Begitu juga dengan kulit kering yang sangat sensitif terhadap beberapa bahan kecantikan umum. Penting untuk membaca label sebelum Anda membeli produk skincare untuk kulit kering. Berikut bahan skincare yang tak cocok untuk kulit kering.\n
-				</p>\n\n
+            Retinoid\n\n
+            Retinoid merupakan turunan kelas turunan vitamin A yang dikenal dapat mengurangi garis-garis halus, kerutan, pori-pori besar, dan jerawat. \n
+            Sementara bahan tersebut telah diperjuangkan secara luas untuk keberhasilan mereka dalam mengobati jerawat, keriput, dan kondisi kulit seperti psoriasis dan kutil, retinoid bisa terlalu keras pada kulit kering.\n
+            Iritasi adalah efek samping dari bahan ini, jadi menambahkannya di atas kulit yang sudah kering dapat menjadi sebuah kesalahan. \n
+            Meskipun retinoid efektif, kekuatannya juga memiliki kelemahan berupa efek samping potensial. \n
+            Kekeringan dan iritasi mungkin terjadi, terutama ketika pertama kali mulai menggunakan produk.\n\n
 
-                 <p>
-                     <b>Salicylic Acid</b> \n \n
-                     Salicylic acid atau asam salisilat memiliki asal yang relatif alami, karena pernah berasal dari metabolisme salacin, sering ditemukan di kulit pohon willow. \n
-                    Seperti salacin, asam salisilat adalah zat anti-inflamasi dengan kemiripan kimiawi dengan aspirin.\n
-                    Asam salisiklik mengeksfoliasi dan mengangkat sel-sel mati dari dalam pori-pori dan permukaan kulit. \n
-                    Karena memiliki sifat pengelupasan, Salicylic acid berpotensi mengeringkan kulit.\n
-                    Bahan ini memang bagus untuk menyembuhkan jerawat karena dikenal dapat mengeringkan jerawat dan mengangkat minyak berlebih. Tapi, bahan ini terlalu keras pada kulit kering dan dapat dengan mudah mengiritasi dan menyebabkan kemerahan dan peradangan.\n
-                 </p>
-                    <p>
-                        <b>Alkohol</b>\n \n
-                     Alkohol seperti etanol, alkohol isopropil, alkohol denat, dan metanol digunakan untuk membuat krim terasa lebih ringan, membantu bahan-bahan lain untuk menembus kulit dan sebagai pengawet.\n
-                    Alkohol ini dapat menyebabkan kekeringan, iritasi, dan jerawat.\n
-                    Semua bentuk alkohol yang ditemukan dalam produk-produk seperti toner dan beberapa pembersih akan mengeringkan hidrasi dari kulit.\n
-                    Efek ini dapat membuat kulit bersisik dan mengelupas. Kerusakan akibat alkohol dapat menyebabkan peningkatan benjolan dan pori-pori membesar.\n
-                 </p>
-
-                </body>
-            </html>
-        </item>
-        <item>
-		
+            Fragrance\n
+            Pewangi terbuat dari campuran minyak esensial dan senyawa aroma pada skincare. \n
+            Aroma yang ditambahkan ke produk kecantikan untuk menetralisir bau tidak enak dari bahan-bahannya.\n
+            Namun, pengawet juga dapat berbahaya bagi kulit kering. \n
+            Pewangi bisa menjadi penyebab utama alergi kulit.\n
+            Jika wewangian dan pengawet mengiritasi kulit, mereka dapat mengubah kulit menjadi berantakan kering dan bersisik.\n
+            Menurut American Academy of Dermatology (AAD), pewangi adalah penyebab terbesar dari dermatitis kontak kosmetik.\n
+            Bagi sebagian orang, wewangian dapat berdampak negatif pada kulit. \n
+            Wewangian dapat menyebabkan iritasi yang menyebabkan kemerahan dan kulit gatal.\n
         </item>
     </string-array>
     <string-array name="article_dry_3">
         <item>
-           
+           INI 5 CARA MEMILIH CUSHION UNTUK KULIT KERING YANG BENAR
         </item>
         <item>
-          
+            Memiliki kulit kering memang membutuhkan perawatan ekstra, apalagi dalam penggunaan make up.\n
+            Kamu perlu memilih base make up yang memiliki hasil akhir hydra stay dan glow sepanjang hari agar make up tidak mudah crack.\n
+            Memilih foundation atau cushion untuk kulit kering sebenarnya sangat mudah, loh!\n
+
+            Kamu hanya perlu memahami jenis kulit dan produk cushion untuk kulit kering.\n
+            Agar tidak bingung lagi menentukan cushion yang sesuai jenis kulit kamu, berikut ada lima tips untuk memilih cushion untuk kulit kering.\n
+            Simak penjelasan berikut!\n\n
+
+            Cara Memilih Cushion untuk Kulit Kering\n\n
+
+            Pahami Undertone Kulit Wajah\n\n
+
+            Langkah pertama sebelum membeli cushion untuk kulit kering adalah kamu perlu memahami undertone kulit wajah terlebih dahulu.\n
+            Hal ini berguna bagi kamu menentukan shade yang sesuai, caranya adalah dengan melihat urat nadi yang ada di balik permukaan kulit tangan.\n
+            Jika kamu melihat urat nadi berwarna biru artinya kamu memiliki cool undertone dan paling cocok dengan shade yang memiliki pink tone atau dengan kode shade C.\n
+            Sebaliknya, apabila warna urat nadi yang terlihat adalah hijau maka kulit kamu masuk kategori warm undertone yang paling cocok dengan shade dengan tone kuning atau peach yang memiliki kode shade W.\n
+            Sementara, jika kamu ada perpaduan nadi berwarna hijau dan biru artinya kamu memiliki neutral undertone yang bisa menggunakan shade apa saja sesuai warna kulit kamu, perlu diingat shade neutral undertone biasanya memiliki kode N.\n
+
+            Pilih Cushion yang Memiliki Formula Melembabkan\n\n
+
+            Sebagai pemilik kulit kering, tentunya kamu perlu memilih cushion untuk kulit kering yang melembabkan dan bisa memberikan hasil akhir hydra stay.\n
+            Formula cushion yang melembabkan bisa membuat make up menempel lebih lama dan juga tidak membuat make up crack ketika digunakan.\n
+            Kamu bisa mencari cushion untuk kulit kering yang memiliki kandungan hyaluronic acid untuk mendapatkan kelembaban yang ekstra.\n
         </item>
         <item>
-            
+             Gunakan Cushion yang Teksturnya Ringan di Kulit\n
+
+            Agar hasilnya flawless dan natural, kamu perlu mencari cushion untuk kulit kering yang memiliki tekstur yang ringan.\n
+            Umumnya cushion yang memiliki hasil akhir dewy atau glowing memiliki tekstur yang ringan ketika digunakan.\n
+            Selain itu, tekstur yang ringan juga membuat kamu lebih nyaman dalam menggunakan make up.\n
+
+            Pilih yang Tampilan Akhirnya Dewy atau Satin Finish\n\n
+
+            Jangan sampai salah pilih, cushion untuk kulit kering yang sempurna adalah yang memiliki hasil dewy atau satin, karena hasil akhir make up yang seperti ini biasanya memiliki formula yang lebih melembabkan dan juga bisa menampilkan hasil glowing.\n
+            Sehingga, make up kamu akan lebih maksimal dan tidak flat.\n
+
+            Perhatikan Kandungan dan Komposisi Produk Cushion\n\n
+
+            Cushion untuk kulit kering wajib memiliki kandungan hidrasi yang tinggi untuk menjaga kulit lembab seharian dan juga perlu memiliki klaim yang dapat menutup masalah kulit seperti pori-pori dan juga meratakan tekstur kulit karena make up yang memiliki kandungan yang bagus akan membuat make up kamu lebih nyaman digunakan dan bisa menambah kepercayaan diri juga.\n
+
         </item>
+    </string-array>
+
+    //ARTICLE
+    //normal
+    <string-array name="article_normal_1">
+    <item>
+        Apa itu Perawatan Wajah?
+    </item>
+    <item>
+        Perawatan wajah adalah metode untuk memelihara kesehatan kulit dan mencegah maupun mengatasi berbagai masalah kulit wajah. \n
+        Prosedur ini dapat dilakukan secara rutin, baik di rumah maupun di klinik estetika atau rumah sakit. \n
+        Memiliki kulit yang sehat adalah hasil dari kombinasi genetika, perawatan kulit yang baik, dan kebiasaan diet yang sehat. \n
+        Namun, memilih perawatan yang tepat adalah bagian terpenting dari kulit yang bersih dan sehat. \n
+        Seseorang dikatakan punya kulit normal apabila memiliki kandungan air dan minyak (sebum) yang seimbang. \n
+        Keseimbangan ini membuat kulit tidak terlalu berminyak atau pun terlalu kering. \n
+        Jenis kulit normal umumnya tidak memiliki masalah, seperti kulit yang tampak bercahaya dan lembap serta pori-pori yang hampir tidak terlihat.\n\n
+
+        Langkah Perawatan Muka Sehari-hari\n
+        Penting untuk melakukan perawatan muka sehari-hari untuk mencegah masalah kulit di kemudian hari. \n
+        Lantas, perawatan muka atau wajah terdiri dari apa saja? \n\n
+
+        1. Rutin membersihkan wajah \n\n
+            Pastikan kamu mencuci muka dua kali setiap hari dan setelah berkeringat. \n
+            Gunakan pembersih ringan yang lembut dan bebas bahan kimia. \n
+            Pilihlah pembersih wajah yang sesuai dengan jenis kulit.\n\n
+
+        2. Menggunakan toner\n\n
+            Idealnya setelah membersihkan wajah, kamu perlu menggunakan toner dalam proses perawatan muka. \n
+            Soalnya, terkadang ada saja kotoran yang tidak terangkat dengan mencuci wajah biasa. \n
+            Toner akan memastikan semua kotoran tersembunyi di wajah terangkat sempurna.\n\n
+
+        3. Mengoleskan serum\n\n
+            Pengaplikasian serum dapat membantu kulit wajah tetap lembap, menghidrasi, dan menjaga kekenyalan kulit. \n
+            Penggunaan serum sebelum produk wajah lainnya juga dapat membantu melindungi kulit dan memaksimalkan manfaat produk perawatan wajah lainnya. \n
+
+        4. Penggunaan eye cream\n\n
+            Krim wajah tidak sama dengan krim untuk mata. \n
+            Produk untuk area mata lebih sensitif. \n
+            Produk perawatan muka berupa Eye cream dapat membantu menjaga kesehatan dan kekenyalan kulit di area mata serta menyamarkan garis halus.\n\n
+
+        5. Pelembap wajah\n
+            Gunakan pelembab setiap hari sesuai dengan tipe kulit wajah. \n
+            Tidak hanya kulit kering saja, nyatanya kulit berminyak pun tetap membutuhkan pelembab.\n
+            Gunakan serum wajah atau pelembab berbahan dasar air jika tidak menyukai wajah yang berminyak.\n\n
+
+        6. Menggunakan sunscreen\n\n
+            Tahap perawatan muka selanjutnya adalah penggunaan sunscreen. \n
+            Sunscreen dapat melindungi kulit wajah sekaligus mempertahankan produk perawatan kulit lainnya yang sudah diaplikasikan ke wajah. \n
+            Sunscreen juga dapat menghambat penuaan dan hiperpigmentasi. \n\n
+
+        7. Penggunaan lip balm\n\n
+            Tidak hanya kulit wajah, kulit bibir juga perlu dirawat. \n
+            Itulah sebabnya, untuk rangkaian perawatan muka, yang tak boleh ketinggalan adalah mengoleskan lip balm. \n
+            Penggunaan lip balm dapat menjaga kelembapan bibir dan membuat bibir tidak mudah kering dan tetap lembut.\n\n
+
+        8. Pola makan sehat\n
+            Perawatan muka juga melibatkan pola makan bergizi seimbang. \n
+            Sebab, kulit membutuhkan nutrisi dari dalam tubuh yang bisa kita dapat melalui makanan tertentu. \n
+            Semakin sehat pola makan yang kamu adopsi, maka kulit juga semakin glowing. \n
+            Contoh makanan yang mampu menyehatkan kulit adalah ikan berlemak seperti salmon, alpukat, kenari, biji bunga matahari, sayuran, buah-buahan, dan biji-bijian setiap hari.\n\n
+
+        9. Mencukupi asupan cairan tubuh\n
+            Penuhi asupan air setiap harinya untuk menghidrasi kulit dan mencegah keriput, jerawat, serta masalah kulit lainnya. \n
+            Pastikan kamu minum 2-3 liter/hari agar cairan tubuh tercukupi dengan baik.\n\n
+
+        10. Mengelola stres sebaik mungkin\n
+            Kondisi stres dapat membuat kulit rentan terhadap jerawat atau masalah kulit lainnya. \n
+            Kelola stres dengan tidur yang cukup, meditasi, pola makan sehat dan lain-lain.\n\n
+
+        11. Berhenti merokok dan batasi alkohol\n\n
+            Merokok dapat mempersempit pembuluh darah yang menyebabkan lebih sedikit aliran darah di lapisan terluar kulit. \n
+            Selain itu, kebiasaan ini mampu menghambat oksigen dan nutrisi yang penting untuk kesehatan kulit. \n
+            Gaya hidup ini juga dapat merusak kolagen dan elastin, yang berkontribusi pada kerutan dan kulit pucat kusam. \n
+            Asupan alkohol yang tinggi dapat merusak kulit dan membuat kulit dehidrasi.\n
+
+    </item>
+    <item>
+        Teknik Perawatan Wajah\n\n
+        Berikut adalah jenis-jenis perawatan muka atau wajah yang sering dijalani atau dilakukan oleh wanita:\n\n
+
+        1. Totok wajah\n\n
+            Salah satu perawatan kecantikan wajah yang bisa kamu lakukan adalah totok wajah. \n
+            Meski tidak menggunakan teknologi canggih, perawatan ini tetap digemari oleh banyak orang, lho. \n
+            Totok wajah dilakukan dengan menekan titik-titik tertentu pada wajah yang bertujuan untuk menyegarkan serta merelaksasi kulit. \n
+            Dengan begitu, wajah pun akan terasa lebih kenyal dan bersinar. \n
+            Tak hanya bermanfaat untuk menjaga kecantikan wajah, totok wajah juga dapat meredakan berbagai keluhan penyakit ringan, seperti otot tegang, migren, dan sakit kepala.\n\n
+
+        2. Masker\n\n
+            Walau masker bukanlah cara baru dalam merawat dan menjaga kecantikan wajah, jenis perawatan wajah ini tetap menjadi salah satu yang digemari hingga sekarang.\n
+            Hanya ada sedikit saja hal yang membedakan, yaitu formula dari masker itu sendiri yang kini semakin berkembang. \n
+            Sebut saja masker yang beberapa tahun belakangan ini hadir dengan kandungan kolagen dan charcoal.\n\n
+
+        3. Facial\n\n
+            Jenis perawatan muka ini merupakan jenis perawatan yang umumnya dipilih oleh beberapa wanita. \n
+            Facial sendiri memiliki berbagai macam jenis, karena setiap salon perawatan juga menawarkan berbagai jenis facial yang berbeda.  \n
+            Facial adalah prosedur membersihkan kulit wajah dari semua jenis kotoran wajah, seperti jerawat, komedo, dan lain-lain. \n
+            Umumnya, jenis perawatan ini menggunakan ekstrak green tea yang mengandung antiseptik, sehingga mampu menyembuhkan masalah jerawat. \n
+            Sebelum melakukan perawatan ini, ada baiknya kamu berdiskusi terlebih dahulu dengan dokter kulit, sehingga tahu kondisi kulit wajahmu saat ini.\n
+
+        4. Mikrodermabrasi\n
+            Perawatan kecantikan wajah yang satu ini dapat membuat wajah kamu menjadi lebih kencang dan sehat. \n
+            Mikrodermabrasi adalah sejenis tindakan pengelupasan (exfoliation) dengan menggunakan kristal mikro untuk mengangkat sel-sel kulit mati, sehingga kulit tampak lebih muda dan cerah. \n
+            Praktik pengelupasan kulit ini juga mendorong produksi kolagen meningkat, sehingga mampu mengembalikan elastisitas kulit. \n
+            Karena itu tidak heran bila perawatan ini dapat mengurangi munculnya garis-garis halus. \n
+            Bahkan, menjadikan tekstur kulitmu terlihat lebih halus, sehingga kulit wajahmu tampak lebih muda.\n
+
+        5. Radio frequency\n
+            Cobalah beralih ke teknologi baru di bidang kecantikan seperti Radio Frequency Treatment (RF). \n
+            Cara ini bisa dipilih bila berbagai jenis perawatan muka agar kulit wajah kencang lainnya tidak membuahkan hasil yang maksimal.\n
+
+        6. Botox\n
+            Perawatan muka yang satu ini juga bisa membuat tampilan wajah menjadi tampak lebih muda. \n
+            Botox bekerja dengan cara merelaksasi otot-otot yang menjadi penyebab kerutan, sehingga kulit menjadi lebih kencang. \n
+            Dengan melakukan perawatan ini, kamu tidak perlu melakukan operasi untuk tampil lebih muda daripada usiamu sekarang ini.\n
+
+        7. Tanam benang\n
+            Tanam benang juga merupakan perawatan yang cukup digemari banyak wanita saat ini. \n
+            Perawatan ini memiliki manfaat untuk membuat wajah kembali kencang dan meremajakan kulit, sehingga kulit wajah tampak lebih muda. \n
+            Prosedur perawatan ini adalah dengan menanamkan sebuah benang di bagian bawah kulit. \n
+            Nantinya benang tersebut akan merangsang terbentuknya kolagen, sehingga kulit terlihat lebih kencang.\n
+    </item>
+    </string-array>
+
+    <string-array name="article_normal_2">
+        <item>
+        Pengertian Ph kulit wajah
+        </item>
+        <item>
+            Kadar pH kulit wajah merupakan salah satu faktor yang perlu diperhatikan untuk menjaga kesehatan dan kebersihan kulit secara optimal. \n
+            Pasalnya, nilai pH kulit wajah yang tidak seimbang dapat memicu berbagai masalah kulit, seperti kulit kering, iritasi, hingga muncul jerawat.\n
+
+            Maka dari itu, mari kenali kadar pH kulit wajah yang normal beserta cara menjaga keseimbangannya melalui ulasan di bawah ini.\n\n
+
+            Apa itu pH Kulit Wajah?\n\n
+
+            Potential of Hydrogen (pH) kulit wajah adalah skala pengukuran  yang digunakan untuk menunjukkan derajat kebasaan atau keasaman pada kulit wajah. \n
+            Keseimbangan pH pada kulit wajah ini dijaga oleh lapisan kulit, yaitu acid mantle, yang terdiri dari asam amino, lemak, dan sebum atau minyak alami.\n\n
+
+
+            Berapa pH Kulit Wajah Normal?\n\n
+
+            Secara umum, rentang nilai pH adalah berkisar dari 0–14, di mana pH 7 menunjukkan bahwa zat tersebut bersifat netral. \n
+            Namun, berapa nilai pH pada kulit wajah yang normal? Pada dasarnya, nilai pH kulit wajah yang normal cenderung sedikit asam.\n
+
+            Dilansir dari penelitian yang dipublikasikan pada The Journal of Clinical and Aesthetic Dermatology tahun 2017, pH kulit wajah yang normal pada wanita adalah berkisar antara 4,5–5,5.\n
+            Sementara itu, pH kulit wajah pria yang normal berada pada rentang 4–5,5.\n\n
+
+            Cara Mengetahui pH Kulit Wajah\n\n
+
+            Pada dasarnya, cara mengetahui nilai pH atau derajat keasaman kulit wajah dapat dilakukan dengan mengamati kulit, menggunakan alat ukur pH, hingga berkonsultasi dengan dokter spesialis dermatologi.\n\n
+
+            Mengamati Kulit\n\n
+            Cara mudah yang bisa dilakukan untuk mengetahui nilai pH pada kulit wajah adalah dengan mengamati kulit secara menyeluruh. \n
+            Umumnya, kulit wajah yang memiliki nilai pH normal memiliki tekstur kulit yang halus, tidak terdapat tanda-tanda infeksi kulit, warna kulit merata, tidak terdapat iritasi atau ruam merah pada kulit, bertekstur lembut dan tidak terasa kering atau tertarik.\n\n
+
+            Menggunakan Alat Ukur pH Kulit\n\n
+            Cara mengetahui pH kulit wajah berikutnya adalah dengan menggunakan alat ukur pH kulit wajah. \n
+            Umumnya, alat ukur pH kulit wajah berbentuk strip kertas yang dapat ditempelkan pada permukaan kulit wajah untuk mengetahui nilai pH tersebut.\n
+
+            Berkonsultasi dengan Dokter Spesialis Dermatologi\n\n
+            Berkonsultasi dengan dokter spesialis dermatologi juga bisa dilakukan untuk mengetahui kadar pH dari kulit wajah. \n
+            Nantinya, dokter akan menggunakan cairan khusus untuk mengukur pH dari kulit wajah pasien.\n\n
+
+            Penyebab pH Kulit Wajah Tidak Seimbang\n\n
+
+            Terdapat beberapa kondisi yang bisa menyebabkan pH pada kulit wajah menjadi tidak seimbang, di antaranya adalah karena faktor usia, paparan sinar matahari berlebih, pola makan tidak sehat, hingga cara perawatan kulit yang tidak tepat. \n\n
+
+            Berikut masing-masing penjelasannya.\n\n
+
+            Usia\n\n
+            Seiring dengan bertambahnya usia, nilai pH kulit wajah akan menjadi bersifat lebih basa.\n
+            Kondisi inilah yang bisa menyebabkan munculnya tanda-tanda penuaan pada wajah, seperti kerutan atau garis-garis halus, hiperpigmentasi, keriput, dan masalah kulit wajah lainnya.\n\n
+
+            Paparan Sinar Matahari Berlebih\n\n
+            Paparan sinar matahari berlebih juga bisa menyebabkan ketidakseimbangan nilai pH pada kulit wajah. \n
+            Pasalnya, paparan sinar matahari secara berlebihan dapat melemahkan lapisan acid mantle yang bisa memengaruhi pH kulit wajah menjadi lebih basa.\n\n
+
+            Pola Makan Tidak Sehat\n\n
+            Penyebab pH wajah tidak seimbang berikutnya adalah pola makan yang tidak sehat. \n
+            Terlalu banyak mengonsumsi makanan yang bersifat asam, seperti minuman beralkohol, kafein, dan makanan yang mengandung gula tinggi diketahui dapat memengaruhi kadar pH kulit wajah menjadi lebih asam.\n\n
+
+            Perawatan Kulit Wajah yang Tidak Tepat\n\n
+            Perawatan wajah yang tidak tepat juga bisa mengganggu kadar pH pada kulit wajah. \n\n
+
+            Adapun sejumlah perawatan kulit wajah yang tidak tepat dan bisa memengaruhi kadar pH kulit wajah adalah:\n\n
+
+            Sering mencuci wajah menggunakan air panas.\n
+
+            Menggunakan produk pembersih wajah dengan kandungan bahan kimia yang bersifat keras.\n
+
+            Menggosok wajah terlalu keras saat mengeringkan kulit wajah atau terlalu sering menggunakan scrub.\n
+
+            Terlalu sering mencuci wajah menggunakan sabun yang mengandung bahan eksfoliasi.\n
+        </item>
+        <item>
+            Cara Menjaga Keseimbangan pH Kulit Wajah\n\n
+
+            Perlu diketahui bahwa pH kulit wajah yang tidak seimbang dapat menyebabkan peningkatan produksi sebum atau minyak secara berlebihan sehingga bisa memicu timbulnya jerawat. \n
+            Selain itu, pH kulit wajah yang terlalu tinggi juga bisa merusak lapisan acid mantle sehingga menyebabkan kulit wajah cenderung lebih sensitif, mudah teriritasi, hingga meningkatkan risiko infeksi bakteri penyebab penyakit kulit, seperti selulitis, kandidiasis, dan impetigo.\n\n
+
+            Sebagai upaya menghindari kondisi-kondisi tersebut, berikut adalah sejumlah cara yang bisa dilakukan untuk menjaga keseimbangan pH kulit wajah.\n\n
+
+            Memilih Produk Skincare yang Tepat\n\n
+            Tips menjaga keseimbangan pH kulit wajah yang pertama adalah dengan memilih produk skincare yang tepat. \n
+            Misalnya, jika memiliki kulit yang cenderung sensitif, lebih baik menggunakan produk skincare yang tidak mengandung alkohol, parfum, dan memiliki label hypoallergenic (berisiko lebih kecil untuk menimbulkan reaksi alergi).\n
+
+            Sementara itu, seseorang yang memiliki kulit wajah berminyak dan berjerawat dapat memilih produk skincare yang mengandung asam salisilat, benzoil peroksida, atau asam glikolat untuk menyeimbangkan pH kulit wajah dan mempercepat pemulihan kulit wajah dari jerawat.\n
+
+            Namun, penting untuk perhatikan penggunaan produk skincare yang mengandung senyawa asam sebaik mungkin. \n
+            Sebab, bila tidak digunakan dengan tepat, kandungan asam dalam produk skincare tersebut justru bisa merusak lapisan minyak alami pada kulit.\n\n
+
+            Membersihkan Wajah secara Rutin\n\n
+            Membersihkan wajah secara rutin juga menjadi salah satu cara menyeimbangkan pH kulit wajah yang tidak kalah penting.\n
+            Namun, pastikan untuk menggunakan sabun pembersih wajah yang telah diformulasikan khusus dengan kadar pH 5,5.\n
+
+            Selain itu, ada baiknya untuk menghindari sabun pembersih wajah dengan bahan pembersih yang keras, seperti sodium lauryl sulphate, sodium laureth sulphate, dan sodium sulfosuccinate. \n
+            Bahan-bahan kimia tersebut diketahui dapat meningkatkan kadar pH serta memicu terjadinya iritasi pada kulit wajah.\n\n
+
+            Menggunakan Toner dan Pelembap\n
+            Setelah membersihkan wajah, keringkan kulit menggunakan tisu atau handuk bersih secara perlahan. \n
+            Lalu, gunakan produk toner dan pelembap wajah untuk menghidrasi serta mengembalikan keseimbangan pH pada kulit wajah.\n
+
+            Tipsnya, gunakanlah pelembap yang mengandung bahan ceramide untuk membantu memperbaiki pH kulit wajah. \n
+            Pasalnya, dilansir dari jurnal The Journal of Clinical and Aesthetic Dermatology, kandungan ceramide mampu meredakan gejala iritasi pada kulit, seperti kulit bersisik, kasar, dan kemerahan. \n
+            Penting pula untuk memilih produk pelembap yang bersifat non-comedogenic guna menghindari risiko tersumbatnya pori-pori kulit wajah.\n\n
+
+            Menggunakan Tabir Surya\n\n
+            Sebagai upaya melindungi kulit wajah dari paparan sinar matahari, penting untuk mengaplikasikan tabir surya (sunscreen) setiap beraktivitas di luar ruangan pada siang hari. \n
+            Gunakanlah tabir surya yang memiliki SPF minimal 30 agar dapat melindungi kulit wajah dari paparan sinar matahari secara optimal. \n
+            Selain itu, jangan lupa untuk mengaplikasikan kembali tabir surya setiap 2 jam sekali.\n\n
+
+            Eksfoliasi Wajah Secukupnya\n\n
+            Eksfoliasi wajah adalah perawatan wajah yang bermanfaat untuk mengangkat sisa-sisa kotoran dan sel-sel kulit mati yang ada pada kulit wajah. \n
+            Namun, hindari melakukan eksfoliasi secara berlebihan karena hal tersebut justru bisa mengganggu keseimbangan pH kulit wajah hingga menyebabkan iritasi pada kulit wajah.\n\n
+
+            Menjaga Pola Makan Sehat\n\n
+            Seperti yang telah dijelaskan, pola makan yang tidak sehat dapat mengganggu keseimbangan pH pada kulit wajah. \n
+            Maka dari itu, disarankan untuk memperhatikan dan menjaga pola makan dengan membatasi konsumsi makanan yang mengandung gula, kafein, dan minuman beralkohol guna menjaga keseimbangan pH pada kulit wajah.\n\n
+
+            Melalui ulasan di atas dapat disimpulkan bahwa menjaga keseimbangan kadar pH pada kulit wajah merupakan hal yang penting untuk dilakukan guna menghindari terjadinya berbagai masalah kulit. \n
+            Jika Anda memiliki keluhan terkait dengan masalah kulit, jangan ragu untuk mengunjungi Siloam Hospitals terdekat guna memperoleh diagnosis dan penanganan yang tepat dari dokter dermatologi kami.\n
+        </item>
+
+    </string-array>
+
+    <string-array name="article_normal_3">
+    <item>
+        12 Makanan yang Bermanfaat untuk Kesehatan Kulit
+    </item>
+        <item>
+       Kulit adalah bagian terluar tubuh yang rentan terhadap berbagai gangguan kesehatan. \n
+        Untuk menjaga kulit tetap sehat, Anda juga perlu mengonsumsi makanan yang padat gizi.\n
+        Apa saja makanan sehat untuk kulit yang perlu Anda konsumsi? Yuk, simak ulasannya berikut ini.\n\n
+
+        Produk perawatan kulit, termasuk pelembap dan tabir surya (sunscreen) akan membantu kulit menjaga kelembapan alaminya. \n
+        Keduanya mampu melindungi kulit dari bahaya jangka panjang paparan sinar matahari, seperti kulit keriput, flek hitam, hingga risiko kanker kulit.\n
+        Akan tetapi, bantuan perawatan kulit dari dalam tubuh, seperti dari makanan dan minuman, juga memiliki manfaat yang sama pentingnya untuk kesehatan kulit Anda. \n
+        Pasalnya, makanan atau minuman mengandung berbagai jenis vitamin dan mineral penting untuk kulit. \n
+
+        Berikut ini adalah berbagai jenis makanan yang bagus untuk kesehatan kulit dan perlu Anda penuhi asupannya dalam menu sehari-hari.\n\n
+        1. Pepaya\n\n
+        Anda bisa mencoba pepaya sebagai buah yang tinggi vitamin C. \n
+        Berbagai penelitian telah membuktikan sejumlah manfaat vitamin C untuk kesehatan kulit.\n
+        Sifat antioksidan dari vitamin C akan melindungi sel kulit dari kerusakan yang disebabkan sinar matahari.\n
+        Vitamin C sendiri bekerja dengan memperbaiki DNA yang telah rusak oleh sinar UV. \n
+        Selain pepaya, ada pula sejumlah makanan sehat untuk kulit yang juga kaya vitamin C, seperti brokoli, kiwi, dan jambu biji.\n\n
+
+        2. Stroberi\n\n
+        Stroberi sebagai salah satu buah  yang kaya akan kandungan vitamin C dapat membantu memperlambat munculnya keriput dan masalah kulit kering akibat penuaan.\n
+        Vitamin C akan membantu melembapkan kulit. Nutrisi ini juga menetralkan radikal bebas akibat sinar UV dan juga meningkatkan sintesis kolagen dalam tubuh.\n
+        Nah, kolagen sendiri merupakan protein berserat dan tak larut yang bermanfaat menjaga elastisitas kulit.\n\n
+
+        3. Tomat\n\n
+        Tomat kaya akan kandungan likopen, yakni sejenis karotenoid yang dapat membantu melindungi kulit Anda dari radiasi sinar matahari. \n
+        Sebuah studi dalam British Journal of Dermatology (2011) menemukan partisipan yang mengonsumsi 2,5 sendok pasta tomat selama 12 minggu berisiko lebih kecil mengalami iritasi kulit.\n\n
+
+        4. Paprika merah\n\n
+        Konsumsi secangkir paprika merah (150 gram) bisa memenuhi 156%  kebutuhan vitamin C harian Anda.\n
+        Mengonsumsi lebih banyak vitamin C dapat membantu melindungi sel kulit dari kerusakan akibat sinar matahari.\n
+        Zat nutrisi mikro ini dapat membantu perbaikan DNA yang rusak akibat sinar UV.\n
+        Untuk mencegah penuaan dini, vitamin C juga membantu sintesis kolagen untuk menjaga kulit tetap kencang dan sehat seiring bertambahnya usia.\n\n
+
+        5. Labu kuning\n\n
+        Labu kuning mengandung senyawa beta karoten yang dapat melindungi kulit Anda dari radiasi sinar UV. \n
+        Beta karoten memiliki efek antioksidan yang memberikan pertahanan kulit terhadap radikal bebas dan radiasi sinar UV dari matahari. \n
+        Selain itu, tubuh akan mengubah beta karoten menjadi vitamin A yang dapat menjaga kesehatan mata, meningkatkan kepadatan tulang, dan memperkuat sistem imun. \n \n
+    </item>
+        <item>
+            6. Jagung\n
+        Jagung merupakan makanan sehat untuk kulit yang menjadi sumber terbaik dari lutein, yakni sejenis karotenoid yang bekerja seperti beta karoten.\n
+            Lutein akan membantu melindungi kulit Anda dari kerusakan oksidatif yang dapat menyebabkan kulit menjadi kering dan berkerut.\n
+        Produk olahan jagung, seperti tepung maizena (corn starch) juga bermanfaat untuk kulit. \n
+        Nah, Anda bisa mengoleskan tepung maizena untuk menenangkan ruam dan iritasi kulit.\n\n
+
+        7. Bayam\n\n
+        Selain jagung, bayam juga kaya akan lutein untuk melindungi kulit Anda dari kerusakan akibat sinar UV. \n
+        Sebuah penelitian menemukan bahwa bayam yang disimpan di bawah cahaya selama setidaknya 3 hari menunjukkan adanya peningkatan nutrisi di dalamnya.\n\n
+
+        8. Edamame\n\n
+        Edamame kaya akan isoflavon, yakni antioksidan yang berfungsi menangkal radikal bebas dari paparan sinar matahari penyebab penuaan dini. \n
+        Kondisi kulit seiring bertambahnya usia ini dapat disebabkan menurunkan kolagen. Hal ini bisa ditandai dengan kulit kendur, berkerut, dan muncul flek hitam.\n
+        Nah, makan makanan sehat untuk kulit seperti edamame membantu meningkatkan produksi kolagen untuk mencegah perubahan kulit akibat efek penuaan.\n\n
+
+        9. Tahu\n\n
+        Tahu yang berbahan dasar kedelai mengandung isoflavon. Senyawa ini dapat meningkatkan produksi kolagen yang bermanfaat dalam melembutkan kulit.\n
+        Konsumsi isoflavon dalam tahu pada wanita pascamenopause secara rutin dapat mengurangi garis halus dan meningkatkan elastisitas kulit wajah.\n
+        Selain mencegah kerusakan kulit akibat paparan sinar UV, senyawa isoflavon diketahui dapat mengurangi risiko kanker kulit.\n\n
+
+        10. Ikan salmon\n\n
+        Ikan salmon kaya akan kandungan asam lemak omega-3 yang penting untuk menjaga kesehatan kulit.\n
+        Asam lemak omega-3, yakni DHA dan EPA, yang ditemukan dalam ikan salmon dapat melindungi sel dari kerusakan radikal bebas yang disebabkan oleh sinar UV.\n
+        Sebuah studi dalam Journal of Clinical Medicine (2016) bahkan menegaskan omega-3 dapat bermanfaat mengurangi risiko kanker kulit non-melanoma, terutama pada orang yang berisiko tinggi.\n\n
+
+        11. Ikan tuna\n\n
+        Tidak hanya salmon, ikan tuna yang lebih terjangkau juga tergolong makanan sehat untuk kulit yang kaya kandungan asam lemak omega-3.\n
+        Asam lemak omega-3 membantu mengurangi peradangan yang menyebabkan jerawat dan kemerahan.\n
+        Ikan berlemak juga merupakan sumber vitamin E yang bermanfaat sebagai antioksidan penting untuk kulit Anda. \n
+        Vitamin E membantu menjaga kulit Anda agar terlihat awet muda.\n\n
+
+        12. Kopi\n
+        Selain mengatasi rasa kantuk, kopi ternyata juga membantu menjaga kesehatan kulit. Kafein dalam kopi membantu melebarkan pembuluh darah di bawah kulit Anda.\n
+        Kopi juga kaya akan vitamin B3 atau niasin yang dapat menurunkan risiko berkembangnya kanker kulit nonmelanoma dan gangguan kulit lainnya.\n
+        Anda juga bisa menggunakan serbuk kopi sebagai scrub untuk mengurangi kemerahan, bintik gelap matahari, dan garis-garis halus sebagai tanda penuaan.\n
+        Menjaga kesehatan kulit wajah dan tubuh secara menyeluruh tentu tidak hanya Anda lakukan dengan rutin mengonsumsi makanan sehat untuk kulit saja.\n
+        Hal ini perlu Anda imbangi pula dengan perawatan kulit, mulai dari mencuci muka, mengoleskan pelembap, dan tabir surya saat beraktivitas luar ruangan.\n
+        Tidur cukup dan kendalikan stres juga bisa membantu perawatan yang Anda lakukan. Selain itu, Anda perlu berhenti merokok dan batasi minuman beralkohol.\n
+        Apabila Anda memiliki pertanyaan lebih lanjut seputar kulit, konsultasikan dengan dokter spesialis kulit untuk mendapatkan solusi terbaik.\n
+    </item>
+    </string-array>
+
+    //ARTICLE
+    //OILY
+    <string-array name="article_oily_1">
+    <item>
+        6 Tips Memilih Sunscreen untuk Kulit Berminyak
+    </item>
+        <item>
+         Ada beberapa tips khusus dalam memilih sunscreen untuk kulit berminyak. \n
+        Hal ini penting diketahui agar penggunaan produk ini nantinya tidak memicu minyak berlebih pada kulit wajah dan menyebabkan munculnya komedo serta jerawat.\n
+        Pemilik kulit berminyak memiliki tantangan tersendiri dalam memilih produk perawatan kulit wajah, terutama sunscreen. \n
+        Padahal, setiap tipe kulit wajah membutuhkan sunscreen agar terlindungi dari efek buruk sinar matahari, seperti penuaan dini, hiperpigmentasi, bahkan kanker kulit.\n
+
+        Pemilihan jenis sunscreen untuk kulit berminyak tidak boleh sembarangan. \n
+        Ada beberapa faktor yang perlu diperhatikan, mulai dari jenis, kandungan, hingga tekstur sunscreen.\n
+
+        Tips Memilih Sunscreen untuk Kulit Berminyak\n\n
+        Berikut ini adalah beberapa tips memilih sunscreen untuk kulit berminyak:\n\n
+        1. Pilih produk berlabel oil-free dan noncomedogenic\n\n
+
+        Untuk penggunaan sehari-hari, hal pertama yang perlu diperhatikan adalah memilih produk sunscreen yang bebas minyak atau oil-free. \n
+        Produk ini bisa mencegah wajah dari sensasi licin karena minyak.\n
+        Selain itu, pilihlah produk yang berlabel noncomedogenic. \n
+        Artinya, produk ini tidak mengandung bahan yang dapat menyumbat pori-pori sehingga risiko munculnya jerawat bisa berkurang.\n\n
+
+        2. Pilih sunscreen berbentuk losion, gel, atau semprot\n\n
+        Hal lain yang perlu diperhatikan dalam memilih sunscreen untuk kulit berminyak adalah tekstur atau jenis sunscreen.\n
+         Untuk kulit berminyak, sebaiknya pilih sunscreen berbentuk losion, gel, atau semprot.\n
+        Sunscreen bertekstur gel atau losion biasanya lebih cocok untuk kulit berminyak karena mampu menyerap sepenuhnya ke dalam kulit tanpa bekas.\n
+        Dengan begitu, produk ini tidak membuat kulit terlihat makin berminyak.\n
+        Sementara itu, sunscreen dalam bentuk semprot umumnya bertekstur sangat ringan.\n
+         Jadi, pastikan Anda menggunakannya secara menyeluruh ke wajah dan jangan sampai ada bagian kulit yang tidak terkena.\n\n
+
+        3. Pilih sunscreen yang memiliki formula dengan spektrum luas\n
+
+        Agar dapat memberikan perlindungan maksimal, gunakan produk sunscreen untuk kulit berminyak yang bisa melindungi kulit dari sinar UVA dan UVB, yaitu yang mengandung SPF dan PA atau tinted sunscreen.\n
+        Pasalnya, beberapa sunscreen ada yang melindungi kulit dari UVB saja. \n
+        Padahal, paparan sinar UVA juga dapat merusak kulit dan menyebabkan penuaan dini, bahkan kanker kulit.\n
+    </item>
+        <item>
+            4. Gunakan sunscreen dengan SPF 30 atau lebih tinggi\n\n
+        SPF merupakan ukuran yang menunjukkan kemampuan suatu produk dalam memberikan perlindungan dari sinar UVB.\n
+         Makin tinggi SPF, makin banyak pula perlindungan yang dapat diberikan ke kulit.\n
+        Gunakan sunscreen dengan minimal SPF 30 saat beraktivitas di bawah sinar matahari.\n
+         Jika Anda lebih sering berada di luar ruangan, pilihlah sunscreen yang tahan air dan tahan keringat.\n
+         Oleskan kembali sunscreen setiap 2 jam, terutama saat berkeringat atau berenang.\n\n
+
+        5. Hindari sunscreen dengan kandungan oxybenzone dan PABA\n\n
+        Bagi Anda pemilik kulit berminyak dan sensitif atau kondisi kulit tertentu, seperti eksim, psoriasis, dan rosacea,\n
+         hindari penggunaan sunscreen yang mengandung bahan aktif oxybenzone dan PABA karena berisiko mengiritasi kulit.\n
+        Jika kulit Anda sangat sensitif terhadap produk tertentu, gunakanlah sunscreen berbahan alami.\n
+         Selain itu, jangan gunakan sunscreen di kulit wajah yang ditujukan untuk badan.\n
+         Pasalnya, jenis produk ini biasanya terlalu tebal, berat, berminyak, dan rentan menyebabkan jerawat.\n\n
+
+        6. Pilih pelembap wajah yang mengandung sunscreen\n\n
+        Saat ini, telah tersedia berbagai produk pelembap wajah yang mengandung sunscreen.\n
+         Produk ini biasanya berbahan ringan, sehingga cocok untuk kulit berminyak.\n
+         Selain itu, penggunaan pelembap sunscreen juga lebih praktis dan efisien.\n
+        Kombinasi pelembap sunscreen bisa memberikan perlindungan dari sinar matahari sama efektifnya dengan produk sunscreen itu sendiri.\n
+         Namun, pastikan Anda tetap memilih produk yang memberikan SPF 30 serta mampu melindungi kulit dari UVA dan UVB.\n
+        Selain memilih sunscreen yang tepat untuk kulit berminyak, penting juga untuk mengoleskannya secara menyeluruh ke kulit wajah. \n
+        Jangan lupa pula untuk memeriksa tanggal kedaluwarsa di kemasan produk.\n
+        Seperti halnya produk perawatan kulit lain, Anda mungkin memerlukan beberapa percobaan produk sunscreen hingga akhirnya menemukan produk yang paling cocok.\n
+         Jika Anda masih ragu atau bingung memilih sunscreen untuk kulit berminyak yang tepat, jangan ragu berkonsultasi dengan dokter.\n
+    </item>
+    </string-array>
+    <string-array name="article_oily_2">
+    <item>
+        Cara Merawat Kulit Berminyak
+    </item>
+        <item>
+            Kulit Berminyak\n\n
+        Apa itu kulit berminyak?\n\n
+        Kulit berminyak merupakan kondisi ketika kelenjar sebasea pada kulit menghasilkan terlalu banyak sebum.\n
+        Sebum adalah minyak alami yang berfungsi melapisi kulit dan rambut.\n
+         Produksi sebum berlebih membuat kulit terlihat mengkilap dan berkilau.\n
+        Sebum sebenarnya membantu merawat kulit tetap lembap.\n
+         Akan tetapi, minyak yang terlalu banyak justru dapat memicu masalah baru, terutama jerawat.\n
+        Selain itu, sel-sel kulit mati pada orang dengan kondisi kulit ini biasanya sulit luruh dan terlepas.\n
+         Akibatnya, sel-sel kulit mati yang seharusnya rontok dengan sendirinya malah menyumbat pori-pori kulit wajah.\n
+        Masalah minyak berlebih terutama sering terlihat pada wajah. \n
+        Namun, punggung dan kepala adalah beberapa contoh bagian tubuh lain yang paling berminyak.\n\n
+        Tanda kulit berminyak\n\n
+        Minyak biasanya paling sering muncul pada wajah, punggung, dan kulit kepala.\n
+         Orang yang memiliki tipe kulit berminyak umumnya memiliki ciri-ciri berikut ini.\n
+        Kulit wajah terlihat lengket, mengkilap, basah, dan berkilau.\n
+        Banyak tumbuh komedo.\n
+        Pori-pori terlihat besar dan jelas pada kulit wajah.\n
+        Wajah mudah berjerawat.\n
+        Rambut mudah lepek karena kulit kepala yang berminyak.\n
+        Setiap orang dapat mengalami gejala dengan bentuk dan tingkat keparahan yang berbeda-beda.\n
+        Ada pemilik kulit berminyak dengan pori-pori kulit yang besar, tapi ada pula pemilik kulit berminyak yang tidak memiliki masalah dengan pori-pori.\n\n
+        Penyebab kulit berminyak\n\n
+        Ada banyak sekali faktor yang menjadi penyebab kulit berminyak.\n
+         Memahami penyebabnya membantu Anda menemukan solusi yang tepat.\n\n
+        1. Faktor genetik\n\n
+        Tipe kulit diturunkan dalam keluarga.\n
+         Jika salah satu pihak atau kedua orangtua memiliki tipe kulit berminyak, anaknya pun kemungkinan memiliki tipe kulit yang sama.\n\n
+        2. Perubahan cuaca\n\n
+        Kelenjar minyak cenderung menghasilkan lebih banyak sebum pada cuaca kering dan panas.\n
+         Hal ini bertujuan agar kulit tidak mengalami dehidrasi akibat kehilangan banyak cairan.\n
+         Namun, produksi sebum yang berlebih justru membuat kulit sangat berminyak.\n\n
+        3. Memiliki pori-pori yang besar\n\n
+        Orang-orang yang memiliki pori-pori besar biasanya memproduksi minyak lebih banyak dibandingkan orang dengan pori-pori normal.\n
+         Anda bisa mencegah penumpukan kotoran dan sebum pada pori-pori dengan rutin melakukan eksfoliasi guna mengangkat lapisan kulit yang sudah mati.\n\n
+        4. Tidak cocok dengan produk skincare\n\n
+        Minyak berlebih pada kulit juga sering disebabkan karena salah memilih produk perawatan kulit. \n
+        Inilah mengapa Anda harus memahami jenis kulit Anda dan membaca label kemasan sebelum membeli produk perawatan kulit tertentu.\n\n
+        5. Berlebihan merawat kulit\n\n
+        Eksfoliasi bisa menghilangkan minyak alami kulit bila terlalu sering dilakukan. \n
+        Kelenjar minyak akhirnya menghasilkan lebih banyak sebum untuk mengembalikan kelembapan kulit yang hilang.\n\n
+        6. Tidak menggunakan pelembap\n\n
+        Walaupun menempel langsung dengan pori-pori, pelembap sebenarnya tidak membuat kulit semakin berminyak.\n
+         Pelembap justru membantu menjaga kulit tetap lembap dan terhidrasi dengan baik.\n\n
+        7. Hormon yang tidak seimbang\n\n
+        Ketidakseimbangan hormon ternyata bisa membuat kelenjar minyak menjadi terlalu aktif.\n
+         Biasanya hal ini disebabkan oleh berbagai faktor seperti pola makan, olahraga, penggunaan alat kontrasepsi, menstruasi, kehamilan, dan menopause.\n\n
+        8. Terlalu fokus mengeringkan wajah\n
+        Hobi menguras minyak di muka ini lambat laun akan menjadi senjata makan tuan. \n
+        Kulit yang terlalu sering terkena alkohol justru akan menghasilkan lebih banyak minyak, sebab alkohol memiliki sifat mengeringkan kulit.\n\n
+        9. Terlalu banyak mengonsumsi gula\n\n
+        Makanan yang memperparah kulit berminyak adalah gula sebab bisa menyebabkan peradangan pada seluruh tubuh, termasuk kulit.\n
+         Kulit pun menjadi lebih berminyak dan mudah berjerawat.\n
+    </item>
+        <item>
+            Faktor risiko kulit berminyak\n\n
+        Berbagai faktor di bawah ini meningkatkan risiko seseorang untuk mengalami tipe kulit ini.\n
+        Minum susu terlalu sering ternyata bisa merangsang kelenjar minyak di kulit dan bahkan menyebabkan jerawat.\n
+        Stres memicu peningkatan produksi minyak, jerawat, dan masalah kulit lainnya karena aktivitas hormon kortisol.\n
+        Riasan yang tebal dapat menyumbat pori-pori hingga akhirnya meningkatkan produksi minyak.\n
+        Kurang minum air atau dehidrasi membuat kelenjar minyak memproduksi minyak berlebih.\n\n
+
+        Perawatan untuk kulit berminyak\n\n
+        Memiliki kulit yang berminyak tentu butuh perawatan khusus. \n
+        Tujuannya agar minyak di wajah tak semakin bertambah hingga menyebabkan jerawat dan masalah lainnya.\n\n
+        1. Rajin mencuci muka\n\n
+        Mencuci wajah berminyak dua kali sehari adalah rutinitas wajib yang tidak boleh dilewatkan oleh pemilik kulit berminyak.\n
+        Bersihkan wajah saat pagi setelah bangun tidur dan malam hari sebelum terlelap kembali.\n
+        Gunakan produk pembersih wajah yang sesuai jenis kulit.\n
+         Usahakan untuk membeli produk sabun dengan bahan yang ringan tanpa wewangian atau bahan kimia keras yang bisa mengiritasi kulit.\n\n
+
+        2. Gunakan astringent atau toner setelah mencuci muka\n
+        Sebuah studi terbitan The Journal of Clinical and Aesthetic Dermatology menemukan bahwa astringent alami seperti witch hazel bisa menenangkan kulit.\n
+        Astringent adalah produk yang berfungsi membersihkan kulit, mengecilkan pori, dan mengontrol minyak.\n\n
+
+        3. Menggunakan pelembap\n\n
+        Pelembap banyak dihindari oleh orang dengan kulit berminyak hanya karena dianggap menambah kilang minyak di wajah. \n
+        Padahal, orang dengan tipe kulit ini juga bisa mengalami kulit kering dan dehidrasi.\n
+        Pilihlah pelembap untuk kulit berminyak yang mengandung asam hialuronat atau lemon yang memiliki sifat anti astringent dan anti bakteri.\n
+         Selain itu, carilah produk berlabel non-komedogenik berbahan dasar air agar tidak menyumbat pori.\n\n
+
+        4. Hindari menyentuh wajah dengan tangan\n\n
+        Memiliki kulit yang berminyak membuat Anda jauh lebih rentan berjerawat dibanding orang dengan kulit kering.\n
+         Pasalnya, sebum yang berlebih akan menyumbat pori-pori yang merupakan cikal-bakal jerawat.\n
+        Untuk mencegah kemunculan jerawat di kulit, sebaiknya hindari kebiasaan menyentuh wajah dengan tangan.\n\n
+
+        5. Menggunakan kertas minyak\n\n
+        Blotting paper atau kertas minyak membantu menghilangkan kelebihan minyak di wajah dengan cara menyerapnya.\n
+        Anda hanya perlu menekan kertas dengan lembut ke wajah dan biarkan selama beberapa detik.\n
+         Jangan menggosokkan kertas di wajah karena justru membuat minyak menyebar ke area lainnya.\n\n
+
+        6. Memilih produk perawatan bebas minyak\n\n
+        Bila Anda memiliki kulit berminyak, hindari produk perawatan berbahan dasar minyak. \n
+        Anda lebih disarankan memilih produk berbahan dasar air berbentuk gel yang tidak meninggalkan kesan berat pada kulit.\n
+        Jangan lupa memeriksa label produk untuk memastikan bahwa Anda memiliki produk yang tepat.\n
+         Jika memungkinkan, pilihlah produk berlabel non-komedogenik yang tidak menyebabkan pori tersumbat sehingga bisa memicu jerawat.\n\n
+
+        7. Memilih makanan yang tepat\n
+        Minyak ikan atau asam lemak omega-3 membantu merawat kulit berminyak agar terhindar dari kemunculan jerawat.\n
+        Ini disebabkan karena kandungan antiradang di dalam minyak ikan yang cukup tinggi. \n
+         Di sisi lain, kurangi konsumsi berbagai produk susu, makanan manis, dan karbohidrat olahan seperti roti atau kue.\n
+
+    </item>
+
+    </string-array>
+
+    <string-array name="article_oily_3">
+    <item>
+        REKOMENDASI DAN URUTAN MENGGUNAKAN SKINCARE UNTUK KULIT BERMINYAK
+    </item>
+        <item>
+            Memilih skincare untuk kulit berminyak mesti ekstra jeli supaya produk yang digunakan tidak makin memicu minyak berlebih atau jerawat di wajah.\n
+         Nah, apa saja yang perlu diperhatikan saat memakai skincare untuk kulit berminyak dan bagaimana urutan produknya serta tips penggunaannya?\n
+         Simak lebih lanjut detailnya pada bahasan berikut.\n
+
+        Kandungan Skincare untuk Kulit Berminyak\n\n
+        Berikut ini beberapa kandungan skincare untuk kulit berminyak yang dapat membantu mengatasi masalah wajah mengilap, jerawat, atau kusam.\n\n
+
+        - Salicylic Acid\n\n
+        Kandungan ini membantu menjaga keseimbangan produksi minyak dalam kulit sekaligus menghilangkan sel kulit mati penyebab pori-pori tersumbat pada wajah. \n\n
+
+        - Niacinamide\n\n
+        Kandungan niacinamide membantu mengurangi produksi sebum dalam kulit dan biasanya terdapat pada skincare untuk kulit berminyak dan pori besar. \n\n
+
+        - Tea Tree Oil \n\n
+        Kandungan ini memiliki efek antibakterial dan anti-inflamasi yang akan membantu mengurangi kemerahan pada kulit berjerawat. \n\n
+
+        - AHA (Alpha Hydroxy Acid)\n\n
+        Kandungan ini sangat baik untuk mengangkat sel kulit mati pada wajah sekaligus membantu mencerahkan kulit.\n\n
+
+        - BHA (Beta Hydroxy Acid)\n\n
+        Untuk kulit bruntusan dan berminyak sebaiknya menggunakan produk dengan kandungan BHA yang efektif untuk membersihkan pori-pori kulit berminyak serta membantu mengurangi kemunculan jerawat atau penyebab kulit bruntusan. \n\n
+
+        Tips Pemakaian Skincare untuk Kulit Berminyak\n\n
+        Dalam pemakaian skincare untuk kulit berminyak ada beberapa hal yang perlu diperhatikan agar produk yang digunakan memberikan manfaat optimal pada kulit dan mencegah problem kulit wajah berminyak makin memburuk. \n\n
+
+        1. Pastikan untuk memilih produk skincare yang memang difungsikan untuk kulit berminyak dan juga sudah memenuhi standar keamanan penggunaan dan teregistrasi di BPOM (Badan Pengawasan Obat dan Makanan). \n
+        2. Hindari penggunaan skincare berbahan dasar minyak, seperti petroleum jelly karena akan menyumbat pori dan memicu minyak berlebih.\n
+        3. Jangan menggosok wajah terlalu kuat ketika membersihkan atau mengaplikasikan produk di wajah agar tidak merusak jaringan kulit.\n
+        4. Gunakan air dingin ketika membersihkan wajah, sehingga pori-pori bisa menutup dengan baik. \n
+        5. Penggunaan skincare untuk kulit berminyak juga akan memberikan hasil lebih maksimal jika dibarengi pola makan dan gaya hidup sehat. \n
+        Jangan lupa kelola stres dan tidur cukup akan membantu kulit lebih sehat dan menetralisir produksi minyak di wajah. \n
+    </item>
+        <item>
+            Urutan Skincare untuk Kulit Berminyak\n\n
+        Dalam urutan pemakaian produk skincare untuk kulit berminyak, ada beberapa tahapan yang perlu diperhatikan agar formula dalam skincare memberi efek perawatan dan perlindungan maksimal pada kulit. \n\n
+        1. Pembersih wajah\n\n
+        Pertama-tama, gunakan pembersih wajah dengan tekstur foam atau gel yang lebih ringan di kulit dan yang memiliki kandungan tepat untuk kulit berminyak,\n
+         contohnya salicylic acid. Hindari pembersih wajah yang mengandung essential oil karena akan membuat wajah semakin berminyak. \n
+        2. Toner\n\n
+         Setelah membersihkan wajah dengan facial cleanser, gunakan toner untuk mengangkat sisa kotoran yang tersisa pada wajah. \n\n
+        3. Serum \n\n
+         Pilih serum yang memiliki kandungan niacinamide, AHA atau BHA.\n
+         Kandungan tersebut bisa membantu mengurangi sebum atau minyak berlebihan pada kulit wajah, membersihkan kulit mati, dan mengatasi kulit kusam serta membuat kulit terlihat lebih cerah.\n
+        4. Pelembap\n\n
+        Pilih pelembap (moisturizer) yang mudah menyerap dan formulanya oil free dan non-comedogenic.\n
+         Pelembap dengan kandungan asam laktat, hyaluronic acid, asam retionoid dapat menjadi pilihan yang tepat karena mampu memberikan kelembaban pada kulit berminyak. \n\n
+        5. Sunscreen\n\n
+        Tahapan skincare terakhir di pagi hari sebelum memakai makeup adalah menggunakan sunscreen atau tabir surya yang memiliki kandungan non-comedogenic dan oil free, dan dengan tekstur ringan yang mudah meresap di kulit. \n
+        Sunscreen adalah perlindungan penting untuk mencegah sunburn, iritasi, dan kerusakan kulit akibat sinar matahari.\n
+    </item>
 
     </string-array>
 
